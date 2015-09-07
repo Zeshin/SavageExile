@@ -20,7 +20,27 @@ this addBackpack "TRYK_B_BAF_BAG_mcamo";
 this addBackpack "TRYK_B_BAF_BAG_OD";
 this addBackpack "TRYK_B_BAF_BAG_rgr";
 
-
+class TRYK_B_AssaultPack_MARPAT_Wood
+class TRYK_B_AssaultPack_Type2camo
+class TRYK_B_AssaultPack_UCP
+class TRYK_B_Coyotebackpack_BLK
+class TRYK_B_Coyotebackpack
+class TRYK_B_Coyotebackpack_OD
+class TRYK_B_Carryall_JSDF
+class TRYK_B_Carryall_blk
+class TRYK_B_Carryall_wood
+class TRYK_B_Kitbag_aaf
+class TRYK_B_Kitbag_blk
+class TRYK_B_Kitbag_Base
+class TRYK_B_Kitbag_Base_JSDF
+class TRYK_B_Medbag_BK
+class TRYK_B_Medbag_OD
+class TRYK_B_Medbag_ucp
+class TRYK_B_BAF_BAG_BLK
+class TRYK_B_BAF_BAG_CYT
+class TRYK_B_BAF_BAG_mcamo
+class TRYK_B_BAF_BAG_OD
+class TRYK_B_BAF_BAG_rgr
 
 
 
