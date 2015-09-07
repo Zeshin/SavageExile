@@ -7,5 +7,5 @@ if (isServer) then {
 [] execVM "addons\eos\OpenMe.sqf";											// EOS SYSTEM
 [] execVM "\q\addons\custom_server\init.sqf"; 									// Missions
 [] execVM "addons\Buildings\initBuildings.sqf";								// Trader posts and bases
-[] execVM "scripts\jump.sqf"; //Jump using c double tap script
+[] execVM "addons\scripts\jump.sqf"; //Jump using c double tap script
 };
