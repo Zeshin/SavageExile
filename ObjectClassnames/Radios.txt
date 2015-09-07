@@ -2,3 +2,5 @@ this linkItem "tf_rf7800str_1";
 this linkItem "tf_anprc148jem";
 
 
+class tf_rf7800str_1
+class tf_anprc148jem
