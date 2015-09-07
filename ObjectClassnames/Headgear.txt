@@ -45,6 +45,55 @@ this addHeadgear "TRYK_H_Bandana_H";
 this addHeadgear "TRYK_Kio_Balaclava";
 
 
+class TRYK_H_PASGT_BLK
+class TRYK_H_PASGT_COYO
+class TRYK_H_PASGT_OD
+class TRYK_H_PASGT_TAN
+class TRYK_H_DELTAHELM_NV
+class TRYK_r_cap_blk_Glasses
+class TRYK_r_cap_od_Glasses
+class TRYK_r_cap_tan_Glasses
+class TRYK_H_TACEARMUFF_H
+class TRYK_H_Helmet_JSDF
+class TRYK_H_woolhat
+class TRYK_H_woolhat_br
+class TRYK_H_woolhat_cu
+class TRYK_H_woolhat_CW
+class TRYK_H_woolhat_tan
+class TRYK_H_woolhat_WH
+class TRYK_H_pakol
+class TRYK_H_Helmet_WOOD
+class TRYK_H_Helmet_MARPAT_Wood
+class TRYK_H_GR
+class TRYK_H_AOR2
+class TRYK_H_headsetcap_od
+class TRYK_H_headsetcap
+class TRYK_H_headsetcap_blk
+class TRYK_H_headsetcap_od_Glasses
+class TRYK_H_headsetcap_blk_Glasses
+class TRYK_H_headsetcap_Glasses
+class TRYK_H_ghillie_top_headless3
+class TRYK_H_ghillie_over_green
+class TRYK_H_ghillie_top_green
+class TRYK_H_ghillie_top_headless_green
+class TRYK_H_ghillie_over
+class TRYK_H_ghillie_top
+class TRYK_H_ghillie_top_headless
+class TRYK_ESS_CAP_tan
+class TRYK_ESS_CAP_OD
+class TRYK_ESS_CAP
+class TRYK_H_EARMUFF
+class TRYK_H_Booniehat_WOOD
+class TRYK_H_Booniehat_JSDF
+class TRYK_H_Booniehat_MARPAT_WOOD
+class TRYK_H_Booniehat_AOR2
+class TRYK_H_Bandana_wig_g
+class TRYK_H_Bandana_H
+class TRYK_Kio_Balaclava
+
+
+
+
 
 
 
