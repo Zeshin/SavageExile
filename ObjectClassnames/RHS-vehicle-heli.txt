@@ -1,73 +1,32 @@
 //GAZ (Vehicle)
-class "Vehicle "rhs_gaz66_vmf",
-class "Vehicle "rhs_gaz66_ammo_vmf",
-class "Vehicle "rhs_gaz66_r142_vmf",
-class "rhs_gaz66_ap2_vmf",
-class "rhs_gaz66_repair_vmf",
-
-//M10 (armed 50cal) (Vehicle)
-class "rhsusf_m1025_w_m2",
-class "rhsusf_m1025_w_m2",
-class "rhsusf_m1025_d_Mk19",
-class "rhsusf_m1025_w_mk19",
-
-//M10 / M98 (unarmed) (Vehicle)
-class "rhsusf_m1025_w",
-class "rhsusf_m1025_d",
-class "rhsusf_m1025_d",
-class "rhsusf_m998_w_2dr",
-class "rhsusf_m998_w_4dr",
-class "rhsusf_m998_w_4dr",
-
-//UAZ (unarmed) (Vehicle)
-class "RHS_UAZ_MSV_01"
-class "rhs_uaz_open_MSV_01",
-
-//URAL (unarmed) (Vehicle)
-class "RHS_Ural_MSV_01",
-class "RHS_Ural_Open_Civ_01",
-class "RHS_Ural_Fuel_MSV_01",
-class "RHS_Ural_Open_MSV_01",
-
-//CH-47f (armed 50cal) (Heli)
-class "RHS_CH_47F",
-
-//KA-60 (unarmed) (Heli)
-class "rhs_ka60_grey"
-
-//Mi8 (unarmed) (Heli)
-class "RHS_Mi8AMT_vvs",
-class "RHS_Mi8mt_vvs",
-
-//UH60 (unarmed) (Heli)
-class "RHS_UH60M",
-class "RHS_UH60M_MEV",
-
-//--------------------------------------//
-
-//GAZ (Vehicle)
-class Vehicle "rhs_gaz66_vmf
-class Vehicle "rhs_gaz66_ammo_vmf
-class Vehicle "rhs_gaz66_r142_vmf
+class rhs_gaz66_vmf
+class rhs_gaz66_ammo_vmf
+class rhs_gaz66_r142_vmf
 class rhs_gaz66_ap2_vmf
 class rhs_gaz66_repair_vmf
+class rhs_tigr_vdv
+class rhs_tigr_vv
+class rhs_tigr_msv
+class rhs_tigr_vmf
+class rhs_tigr_vdv
 
 //M10 (armed 50cal) (Vehicle)
+class rhsusf_m1025_d_m2
 class rhsusf_m1025_w_m2
-class rhsusf_m1025_w_m2
-class rhsusf_m1025_d_Mk19
-class rhsusf_m1025_w_mk19
+//class rhsusf_m1025_d_Mk19
+//class rhsusf_m1025_w_mk19
 
 //M10 / M98 (unarmed) (Vehicle)
 class rhsusf_m1025_w
 class rhsusf_m1025_d
 class rhsusf_m1025_d
+class rhsusf_m998_d_2dr
 class rhsusf_m998_w_2dr
 class rhsusf_m998_w_4dr
 class rhsusf_m998_w_4dr
 
 //UAZ (unarmed) (Vehicle)
-class RHS_UAZ_MSV_01"
+class RHS_UAZ_MSV_01
 class rhs_uaz_open_MSV_01
 
 //URAL (unarmed) (Vehicle)
@@ -77,16 +36,16 @@ class RHS_Ural_Fuel_MSV_01
 class RHS_Ural_Open_MSV_01
 
 //CH-47f (armed 50cal) (Heli)
-class RHS_CH_47F
+//class RHS_CH_47F
 
 //KA-60 (unarmed) (Heli)
-class rhs_ka60_grey"
+class rhs_ka60_grey
 
 //Mi8 (unarmed) (Heli)
 class RHS_Mi8AMT_vvs
 class RHS_Mi8mt_vvs
 
 //UH60 (unarmed) (Heli)
-class RHS_UH60M
-class RHS_UH60M_MEV
+//class RHS_UH60M
+//class RHS_UH60M_MEV
 
