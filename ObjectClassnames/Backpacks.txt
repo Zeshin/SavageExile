@@ -1,0 +1,36 @@
+this addBackpack "TRYK_B_AssaultPack_MARPAT_Wood";
+this addBackpack "TRYK_B_AssaultPack_Type2camo";
+this addBackpack "TRYK_B_AssaultPack_UCP";
+this addBackpack "TRYK_B_Coyotebackpack_BLK";
+this addBackpack "TRYK_B_Coyotebackpack";
+this addBackpack "TRYK_B_Coyotebackpack_OD";
+this addBackpack "TRYK_B_Carryall_JSDF";
+this addBackpack "TRYK_B_Carryall_blk";
+this addBackpack "TRYK_B_Carryall_wood";
+this addBackpack "TRYK_B_Kitbag_aaf";
+this addBackpack "TRYK_B_Kitbag_blk";
+this addBackpack "TRYK_B_Kitbag_Base";
+this addBackpack "TRYK_B_Kitbag_Base_JSDF";
+this addBackpack "TRYK_B_Medbag_BK";
+this addBackpack "TRYK_B_Medbag_OD";
+this addBackpack "TRYK_B_Medbag_ucp";
+this addBackpack "TRYK_B_BAF_BAG_BLK";
+this addBackpack "TRYK_B_BAF_BAG_CYT";
+this addBackpack "TRYK_B_BAF_BAG_mcamo";
+this addBackpack "TRYK_B_BAF_BAG_OD";
+this addBackpack "TRYK_B_BAF_BAG_rgr";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

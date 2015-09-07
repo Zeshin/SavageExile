@@ -1,0 +1,75 @@
+this addVest "TRYK_V_ArmorVest_AOR2_2";
+this addVest "TRYK_V_ArmorVest_Brown2";
+this addVest "TRYK_V_ArmorVest_cbr2";
+this addVest "TRYK_V_ArmorVest_khk2";
+this addVest "TRYK_V_ArmorVest_rgr2";
+this addVest "TRYK_V_ArmorVest_AOR1_2";
+this addVest "TRYK_V_ArmorVest_coyo2";
+this addVest "TRYK_V_ArmorVest_Delta2";
+this addVest "TRYK_V_ArmorVest_green2";
+this addVest "TRYK_V_ArmorVest_Ranger2";
+this addVest "TRYK_V_ArmorVest_tan2";
+this addVest "TRYK_V_PlateCarrier_wood";
+this addVest "TRYK_V_PlateCarrier_blk";
+this addVest "TRYK_V_PlateCarrier_JSDF";
+this addVest "TRYK_V_tacv10LC_TN";
+this addVest "TRYK_V_tacv10LC_OD";
+this addVest "TRYK_V_tacv10LC_BK";
+this addVest "TRYK_V_tacv1_SHERIFF_BK";
+this addVest "TRYK_V_tacv1LSRF_BK";
+this addVest "TRYK_V_tacv1LC_SRF2_OD";
+this addVest "TRYK_V_tacv1LC_SRF_OD";
+this addVest "TRYK_V_tacv1LC_SRF2_BK";
+this addVest "TRYK_V_tacv1LC_SRF_BK";
+this addVest "TRYK_V_tacv1LP_BK";
+this addVest "TRYK_V_tacv1LC_P2_BK";
+this addVest "TRYK_V_tacv1LC_P_BK";
+this addVest "TRYK_V_tacv1_P_BK";
+this addVest "TRYK_V_tacv1_MSL_NV";
+this addVest "TRYK_V_tacv1_MSL_BK";
+this addVest "TRYK_V_tacv1LMSL_NV";
+this addVest "TRYK_V_tacv1LMSL_BK";
+this addVest "TRYK_V_tacv1LC_MSL_NV";
+this addVest "TRYK_V_tacv1LC_MSL_BK";
+this addVest "TRYK_V_tacv1_FBI_BK";
+this addVest "TRYK_V_tacv1LC_FBI2_BK";
+this addVest "TRYK_V_tacv1LC_FBI_BK";
+this addVest "TRYK_V_tacv1L_OD";
+this addVest "TRYK_V_tacv1L_CY";
+this addVest "TRYK_V_tacv1L_BK";
+this addVest "TRYK_V_tacv1LC_OD";
+this addVest "TRYK_V_tacv1LC_CY";
+this addVest "TRYK_V_tacv1LC_BK";
+this addVest "TRYK_V_tacv1MLC_BK";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

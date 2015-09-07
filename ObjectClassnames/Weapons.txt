@@ -1,0 +1,56 @@
+this addWeapon "RH_Hk416";
+this addWeapon "RH_m110";
+this addWeapon "RH_M16A4gl";
+this addWeapon "RH_M16A4_m";
+this addWeapon "rhs_weap_XM2010";
+this addWeapon "rhs_weap_m240B";
+this addWeapon "hlc_m249_SQuantoon";
+this addWeapon "hlc_m249_pip1";
+this addWeapon "RH_M27IAR";
+this addWeapon "RH_M4_ris_m";
+this addWeapon "RH_M4A1_ris_M203s";
+this addWeapon "RH_M4A1_ris_M203s";
+this addWeapon "RH_Mk12mod1";
+this addWeapon "RH_Mk11";
+this addWeapon "RH_SAMR";
+this addWeapon "RH_sbr9";
+this addWeapon "RH_SR25EC";
+this addWeapon "rhs_weap_ak74m";
+this addWeapon "rhs_weap_ak74m_2mag";
+this addWeapon "rhs_weap_ak74m_folded";
+this addWeapon "rhs_weap_ak74m_gp25";
+this addWeapon "hlc_rifle_falosw";
+this addWeapon "hlc_rifle_osw_GL";
+this addWeapon "hlc_rifle_c1A1";
+this addWeapon "hlc_rifle_FAL5061";
+this addWeapon "hlc_smg_MP5N";
+this addWeapon "hlc_smg_mp5k_PDW";
+this addWeapon "hlc_smg_mp510";
+this addWeapon "hlc_rifle_STG58F";
+this addWeapon "rhs_weap_svdp";
+this addWeapon "rhs_weap_pkp";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
