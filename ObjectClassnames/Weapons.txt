@@ -30,27 +30,35 @@ this addWeapon "hlc_rifle_STG58F";
 this addWeapon "rhs_weap_svdp";
 this addWeapon "rhs_weap_pkp";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+class RH_Hk416
+class RH_m110
+class RH_M16A4gl
+class RH_M16A4_m
+class rhs_weap_XM2010
+class rhs_weap_m240B
+class hlc_m249_SQuantoon
+class hlc_m249_pip1
+class RH_M27IAR
+class RH_M4_ris_m
+class RH_M4A1_ris_M203s
+class RH_M4A1_ris_M203s
+class RH_Mk12mod1
+class RH_Mk11
+class RH_SAMR
+class RH_sbr9
+class RH_SR25EC
+class rhs_weap_ak74m
+class rhs_weap_ak74m_2mag
+class rhs_weap_ak74m_folded
+class rhs_weap_ak74m_gp25
+class hlc_rifle_falosw
+class hlc_rifle_osw_GL
+class hlc_rifle_c1A1
+class hlc_rifle_FAL5061
+class hlc_smg_MP5N
+class hlc_smg_mp5k_PDW
+class hlc_smg_mp510
+class hlc_rifle_STG58F
+class rhs_weap_svdp
+class rhs_weap_pkp
 
