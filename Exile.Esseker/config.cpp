@@ -793,15 +793,15 @@ class CfgExileArsenal
 	class V_PlateCarrierSpec_blk 					{ quality = 3; price = 200; };
 	class V_PlateCarrierSpec_mtp 					{ quality = 3; price = 200; };
 	class V_PlateCarrierSpec_rgr 					{ quality = 3; price = 200; };
-	class TYRK_V_PlateCarrier_ACU                   { quality = 3; price = 200; };
-	class TYRK_V_PlateCarrier_ACU_L					{ quality = 3; price = 200; };
-	class TYRK_V_PlateCarrier_blk                   { quality = 3; price = 200; };
-	class TYRK_V_PlateCarrier_blk_L                 { quality = 3; price = 200; };
-	class TYRK_V_PlateCarrier_coyo                  { quality = 3; price = 200; };
-	class TYRK_V_PlateCarrier_coyo_L                { quality = 3; price = 200; };
-	class TYRK_V_PlateCarrier_POLICE                { quality = 3; price = 200; };
-	class TYRK_V_PlateCarrier_wood                  { quality = 3; price = 200; };
-	class TYRK_V_PlateCarrier_wood_L                { quality = 3; price = 200; };
+	class TYRK_V_PlateCarrier_ACU                   { quality = 3; price = 250; };
+	class TYRK_V_PlateCarrier_ACU_L					{ quality = 3; price = 250; };
+	class TYRK_V_PlateCarrier_blk                   { quality = 3; price = 250; };
+	class TYRK_V_PlateCarrier_blk_L                 { quality = 3; price = 250; };
+	class TYRK_V_PlateCarrier_coyo                  { quality = 3; price = 250; };
+	class TYRK_V_PlateCarrier_coyo_L                { quality = 3; price = 250; };
+	class TYRK_V_PlateCarrier_POLICE                { quality = 3; price = 250; };
+	class TYRK_V_PlateCarrier_wood                  { quality = 3; price = 250; };
+	class TYRK_V_PlateCarrier_wood_L                { quality = 3; price = 250; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Caps
