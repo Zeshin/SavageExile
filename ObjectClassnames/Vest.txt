@@ -43,33 +43,46 @@ this addVest "TRYK_V_tacv1LC_BK";
 this addVest "TRYK_V_tacv1MLC_BK";
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+class TRYK_V_ArmorVest_AOR2_2
+class TRYK_V_ArmorVest_Brown2
+class TRYK_V_ArmorVest_cbr2
+class TRYK_V_ArmorVest_khk2
+class TRYK_V_ArmorVest_rgr2
+class TRYK_V_ArmorVest_AOR1_2
+class TRYK_V_ArmorVest_coyo2
+class TRYK_V_ArmorVest_Delta2
+class TRYK_V_ArmorVest_green2
+class TRYK_V_ArmorVest_Ranger2
+class TRYK_V_ArmorVest_tan2
+class TRYK_V_PlateCarrier_wood
+class TRYK_V_PlateCarrier_blk
+class TRYK_V_PlateCarrier_JSDF
+class TRYK_V_tacv10LC_TN
+class TRYK_V_tacv10LC_OD
+class TRYK_V_tacv10LC_BK
+class TRYK_V_tacv1_SHERIFF_BK
+class TRYK_V_tacv1LSRF_BK
+class TRYK_V_tacv1LC_SRF2_OD
+class TRYK_V_tacv1LC_SRF_OD
+class TRYK_V_tacv1LC_SRF2_BK
+class TRYK_V_tacv1LC_SRF_BK
+class TRYK_V_tacv1LP_BK
+class TRYK_V_tacv1LC_P2_BK
+class TRYK_V_tacv1LC_P_BK
+class TRYK_V_tacv1_P_BK
+class TRYK_V_tacv1_MSL_NV
+class TRYK_V_tacv1_MSL_BK
+class TRYK_V_tacv1LMSL_NV
+class TRYK_V_tacv1LMSL_BK
+class TRYK_V_tacv1LC_MSL_NV
+class TRYK_V_tacv1LC_MSL_BK
+class TRYK_V_tacv1_FBI_BK
+class TRYK_V_tacv1LC_FBI2_BK
+class TRYK_V_tacv1LC_FBI_BK
+class TRYK_V_tacv1L_OD
+class TRYK_V_tacv1L_CY
+class TRYK_V_tacv1L_BK
+class TRYK_V_tacv1LC_OD
+class TRYK_V_tacv1LC_CY
+class TRYK_V_tacv1LC_BK
+class TRYK_V_tacv1MLC_BK
