@@ -4,11 +4,10 @@ class rhs_gaz66_ammo_vmf
 class rhs_gaz66_r142_vmf
 class rhs_gaz66_ap2_vmf
 class rhs_gaz66_repair_vmf
-class rhs_tigr_vdv
-class rhs_tigr_vv
-class rhs_tigr_msv
+//class rhs_tigr_vv
+//class rhs_tigr_msv
 class rhs_tigr_vmf
-class rhs_tigr_vdv
+//class rhs_tigr_vdv
 
 //M10 (armed 50cal) (Vehicle)
 class rhsusf_m1025_d_m2
