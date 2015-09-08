@@ -1851,6 +1851,11 @@ class CfgTerritories
 		"Exile_Construction_CampFire_Preview",
 		"Exile_Construction_CamoTent_Preview"
 	};
+
+	protectionPeriod = 21;
+
+	popTabAmountPerObject = 10;
+	respectAamountPerObject = 5;
 };
 class CfgTraderCategories 
 {
