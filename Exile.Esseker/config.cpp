@@ -1032,6 +1032,14 @@ class CfgExileArsenal
 	///////////////////////////////////////////////////////////////////////////////
 	class acc_flashlight 							{ quality = 1; price = 4; };
 	class acc_pointer_IR 							{ quality = 1; price = 10; };
+	class RH_peq15 									{ quality = 2; price = 50; };
+	class RH_peq15_top 								{ quality = 2; price = 50; };
+	class RH_peq15b 								{ quality = 2; price = 50; };
+	class RH_peq15b_top 							{ quality = 2; price = 50; };
+	class RH_peq2 									{ quality = 2; price = 50; };
+	class RH_peq2_top 								{ quality = 2; price = 50; };
+	class RH_SFM952V 								{ quality = 2; price = 50; };
+	class RH_SFM952V_tan							{ quality = 2; price = 50; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Bitpod Attachments
@@ -1044,6 +1052,14 @@ class CfgExileArsenal
 	class bipod_02_F_tan	 						{ quality = 1; price = 10; };
 	class bipod_03_F_blk	 						{ quality = 1; price = 10; };
 	class bipod_03_F_oli	 						{ quality = 1; price = 10; };
+
+	class RH_HBLM 									{ quality = 2; price = 10; };				
+  	class RH_HBLM_tg 								{ quality = 2; price = 10; };
+	class RH_HBLM_des 								{ quality = 2; price = 10; };
+	class RH_HBLM_wdl 								{ quality = 2; price = 10; };
+	class RH_TD_ACB 								{ quality = 2; price = 10; };
+	class RH_TD_ACB_g 								{ quality = 2; price = 10; };
+	class RH_TD_ACB_b 								{ quality = 2; price = 10; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Muzzle Attachments
@@ -1060,6 +1076,41 @@ class CfgExileArsenal
 	class muzzle_snds_H_SW 							{ quality = 2; price = 20; };
 	class muzzle_snds_L 							{ quality = 1; price = 10; };
 	class muzzle_snds_M 							{ quality = 1; price = 10; };
+
+	class RH_qdss_nt4 								{ quality = 2; price = 30; };
+	class RH_qdss_nt4_tg 							{ quality = 2; price = 30; };
+	class RH_qdss_nt4_des 							{ quality = 2; price = 30; };
+	class RH_qdss_nt4_wdl 							{ quality = 2; price = 30; };
+	class RH_sakeclass R 							{ quality = 2; price = 30; };
+	class RH_sakeclass R_tg 						{ quality = 2; price = 30; };
+	class RH_sakeclass R_des 						{ quality = 2; price = 30; };
+	class RH_sakeclass R_wdl 						{ quality = 2; price = 30; };
+	class RH_Sakeclass R762 						{ quality = 2; price = 30; };
+	class RH_Sakeclass R762_tg 						{ quality = 2; price = 30; };
+	class RH_Sakeclass R762_des 					{ quality = 2; price = 30; };
+	class RH_Sakeclass R762_wdl 					{ quality = 2; price = 30; };
+	class RH_fa556 									{ quality = 2; price = 30; }; 
+	class RH_fa556_tg								{ quality = 2; price = 30; };
+	class RH_fa556_des 								{ quality = 2; price = 30; };
+	class RH_fa556_wdl 								{ quality = 2; price = 30; };
+	class RH_fa762 									{ quality = 2; price = 30; };
+	class RH_fa762_tg 								{ quality = 2; price = 30; };
+	class RH_fa762_des 								{ quality = 2; price = 30; };
+	class RH_fa762_wdl 								{ quality = 2; price = 30; };
+	class RH_spclass R_mbs 							{ quality = 2; price = 30; };
+	class RH_spclass R_mbs_tg 						{ quality = 2; price = 30; };
+	class RH_spclass R_mbs_des 						{ quality = 2; price = 30; };
+	class RH_spclass R_mbs_wdl 						{ quality = 2; price = 30; };
+	class RH_tundclass Ra 							{ quality = 2; price = 30; };
+	class RH_tundclass Ra_tg 						{ quality = 2; price = 30; };
+	class RH_tundclass Ra_des 						{ quality = 2; price = 30; };
+	class RH_tundclass Ra_wdl 						{ quality = 2; price = 30; };
+	class RH_m110sd 								{ quality = 2; price = 30; };
+	class RH_m110sd_t 								{ quality = 2; price = 30; };
+	class hlc_muzzle_Agendasix 						{ quality = 2; price = 30; };
+	class hlc_muzzle_Agendasix10mm  				{ quality = 2; price = 30; };
+	class hlc_muzzle_Tundra 						{ quality = 2; price = 30; };
+	class rhs_acc_tgpa 								{ quality = 2; price = 30; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// UAVS
@@ -1097,12 +1148,71 @@ class CfgExileArsenal
 	class optic_LRPS								{ quality = 2; price = 300; };
 	class optic_MRCO								{ quality = 1; price = 100; };
 	class optic_MRD									{ quality = 1; price = 10; };
-	class optic_Nightstalker						{ quality = 3; price = 1000; };
+	//class optic_Nightstalker						{ quality = 3; price = 1000; };
 	class optic_NVS									{ quality = 2; price = 500; };
 	class optic_SOS									{ quality = 2; price = 200; };
-	class optic_tws									{ quality = 3; price = 1500; };
-	class optic_tws_mg								{ quality = 3; price = 1500; };
+	//class optic_tws									{ quality = 3; price = 1500; };
+	//class optic_tws_mg								{ quality = 3; price = 1500; };
 	class optic_Yorris								{ quality = 1; price = 10; };
+
+	class RH_eotech553 								{ quality = 1; price = 100; };
+	class RH_eotech553mag 							{ quality = 1; price = 120; };
+	class RH_eotech553_tan 							{ quality = 1; price = 100; };
+	class RH_eotech553mag_tan 						{ quality = 1; price = 120; };
+	class RH_eotexps3 								{ quality = 1; price = 100; };
+	class RH_eotexps3_tan 							{ quality = 1; price = 100; };
+	class RH_eothhs1 								{ quality = 1; price = 100; }; 
+	class RH_eothhs1_tan 							{ quality = 1; price = 120; }; 
+	class RH_compm4s								{ quality = 1; price = 120; };
+	class RH_compm2 								{ quality = 1; price = 80; };
+	class RH_compm2l 								{ quality = 1; price = 80; };
+	class RH_compm2_tan 							{ quality = 1; price = 80; }; 
+	class RH_compm2l_tan							{ quality = 1; price = 80; };
+	class RH_t1 									{ quality = 1; price = 80; };
+	class RH_t1_tan 								{ quality = 1; price = 80; };
+	class RH_reflex 								{ quality = 1; price = 80; };
+	class RH_shortdot 								{ quality = 1; price = 100; };
+	class RH_m3lr 									{ quality = 1; price = 100; };
+	class RH_ta01nsn 								{ quality = 1; price = 100; };
+	class RH_ta01nsn_2D 							{ quality = 1; price = 100; };
+	class RH_ta31rco 								{ quality = 1; price = 100; };
+	class RH_ta31rco_2D 							{ quality = 1; price = 100; };
+	class RH_ta31rmr 								{ quality = 1; price = 100; };
+	class RH_ta31rmr_2D 							{ quality = 1; price = 100; };
+	class RH_ta01nsn_tan 							{ quality = 1; price = 100; };
+	class RH_ta01nsn_tan_2D 						{ quality = 1; price = 100; };
+	class RH_ta31rco_tan 							{ quality = 1; price = 100; };
+	class RH_ta31rco_tan_2D 						{ quality = 1; price = 100; };
+	class RH_ta31rmr_tan 							{ quality = 1; price = 100; };
+	class RH_ta31rmr_tan_2D 						{ quality = 1; price = 100; };
+	class RH_ta648 									{ quality = 1; price = 200; };
+	class RH_accupoint 								{ quality = 1; price = 150; };
+	class RH_leu_mk4 								{ quality = 1; price = 200; }; 
+	class RH_c79 									{ quality = 1; price = 80; };
+	class RH_c79_2D 								{ quality = 1; price = 80; };
+	class RH_m145 									{ quality = 1; price = 100; };
+	class RH_barska_rds 							{ quality = 1; price = 100; };
+	class RH_cmore 									{ quality = 1; price = 100; };
+	class RH_LTdocter 								{ quality = 1; price = 100; };
+	class RH_LTdocterl 								{ quality = 1; price = 100; };
+	class RH_zpoint 								{ quality = 1; price = 50; };
+	//class RH_anpvs4 								{ quality = 1; price = 100; };
+	class RH_anpvs10 								{ quality = 1; price = 100; };
+	//class RH_pas13cl 								{ quality = 1; price = 100; };
+	//class RH_pas13cm 								{ quality = 1; price = 100; };
+	//class RH_pas13cmg 								{ quality = 1; price = 100; };
+	//class RH_pas13ch 								{ quality = 1; price = 100; };
+
+	class hlc_optic_suit 					 		{ quality = 1; price = 100; };
+
+	class rhs_acc_1p29 								{ quality = 1; price = 80; };
+	class rhs_acc_1p63  							{ quality = 1; price = 50; };
+	class rhs_acc_1pn93_1							{ quality = 1; price = 200; };
+	class rhs_acc_1pn93_2 							{ quality = 1; price = 200; };
+	class rhs_acc_ekp1  							{ quality = 1; price = 50; };
+	class rhs_acc_pgo7v  							{ quality = 1; price = 100; };
+	class rhs_acc_pkas 								{ quality = 1; price = 80; };
+	class rhs_acc_pso1m2 							{ quality = 1; price = 100; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Hardware
@@ -1205,6 +1315,7 @@ class CfgExileArsenal
 	class V_RebreatherB								{ quality = 2; price = 250; };
 	class V_RebreatherIA							{ quality = 2; price = 250; };
 	class V_RebreatherIR							{ quality = 2; price = 250; };
+	class G_I_Diving								{ quality = 2; price = 50; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Pilot Stuff
@@ -1235,24 +1346,24 @@ class CfgExileArsenal
 	class TRYK_B_AssaultPack_MARPAT_Wood			{ quality = 2; price = 150; };
 	class TRYK_B_AssaultPack_Type2camo				{ quality = 2; price = 150; };
 	class TRYK_B_AssaultPack_UCP					{ quality = 2; price = 150; };
-	class TRYK_B_Coyotebackpack_BLK					{ quality = 2; price = 150; };
-	class TRYK_B_Coyotebackpack 					{ quality = 2; price = 150; };
-	class TRYK_B_Coyotebackpack_OD 					{ quality = 2; price = 150; };
-	class TRYK_B_Carryall_JSDF 						{ quality = 2; price = 400; };
+	class TRYK_B_Coyotebackpack_BLK					{ quality = 2; price = 400; };
+	class TRYK_B_Coyotebackpack 					{ quality = 2; price = 400; };
+	class TRYK_B_Coyotebackpack_OD 					{ quality = 2; price = 400; };
+	class TRYK_B_Carryall_JSDF 						{ quality = 2; price = 450; };
 	class TRYK_B_Carryall_blk 						{ quality = 2; price = 450; };
 	class TRYK_B_Carryall_wood 						{ quality = 2; price = 450; };
-	class TRYK_B_Kitbag_aaf 						{ quality = 2; price = 150; };
-	class TRYK_B_Kitbag_blk 						{ quality = 2; price = 150; };
-	class TRYK_B_Kitbag_Base 						{ quality = 2; price = 150; };
-	class TRYK_B_Kitbag_Base_JSDF 					{ quality = 2; price = 150; };
-	class TRYK_B_Medbag_BK	       					{ quality = 2; price = 150; };
-	class TRYK_B_Medbag_OD 							{ quality = 2; price = 150; };
-	class TRYK_B_Medbag_ucp 						{ quality = 2; price = 150; };
-	class TRYK_B_BAF_BAG_BLK 						{ quality = 2; price = 150; };
-	class TRYK_B_BAF_BAG_CYT 						{ quality = 2; price = 150; };
-	class TRYK_B_BAF_BAG_mcamo 						{ quality = 2; price = 150; };
-	class TRYK_B_BAF_BAG_OD 						{ quality = 2; price = 150; };
-	class TRYK_B_BAF_BAG_rgr 						{ quality = 2; price = 150; };
+	class TRYK_B_Kitbag_aaf 						{ quality = 2; price = 350; };
+	class TRYK_B_Kitbag_blk 						{ quality = 2; price = 350; };
+	class TRYK_B_Kitbag_Base 						{ quality = 2; price = 350; };
+	class TRYK_B_Kitbag_Base_JSDF 					{ quality = 2; price = 350; };
+	class TRYK_B_Medbag_BK	       					{ quality = 2; price = 350; };
+	class TRYK_B_Medbag_OD 							{ quality = 2; price = 350; };
+	class TRYK_B_Medbag_ucp 						{ quality = 2; price = 350; };
+	class TRYK_B_BAF_BAG_BLK 						{ quality = 2; price = 350; };
+	class TRYK_B_BAF_BAG_CYT 						{ quality = 2; price = 350; };
+	class TRYK_B_BAF_BAG_mcamo 						{ quality = 2; price = 350; };
+	class TRYK_B_BAF_BAG_OD 						{ quality = 2; price = 350; };
+	class TRYK_B_BAF_BAG_rgr 						{ quality = 2; price = 350; };
 
 
 	///////////////////////////////////////////////////////////////////////////////
@@ -2245,7 +2356,15 @@ class CfgTraderCategories
 		items[] = 
 		{
 			"acc_flashlight",
-			"acc_pointer_IR"
+			"acc_pointer_IR",
+			"RH_peq15",
+			"RH_peq15_top",
+			"RH_peq15b",
+			"RH_peq15b_top",
+			"RH_peq2",
+			"RH_peq2_top",
+			"RH_SFM952V",
+			"RH_SFM952V_tan"
 		};
 	};
 
@@ -2262,7 +2381,14 @@ class CfgTraderCategories
 			"bipod_02_F_hex",
 			"bipod_02_F_tan",
 			"bipod_03_F_blk",
-			"bipod_03_F_oli"
+			"bipod_03_F_oli",
+			"RH_HBLM",
+			"RH_HBLM_tg",
+			"RH_HBLM_des",
+			"RH_HBLM_wdl",
+			"RH_TD_ACB",
+			"RH_TD_ACB_g",
+			"RH_TD_ACB_b"
 		};
 	};
 
@@ -2283,7 +2409,41 @@ class CfgTraderCategories
 			"muzzle_snds_H_MG",
 			"muzzle_snds_H_SW",
 			"muzzle_snds_L",
-			"muzzle_snds_M"
+			"muzzle_snds_M",
+			"RH_qdss_nt4",
+			"RH_qdss_nt4_tg",
+			"RH_qdss_nt4_des",
+			"RH_qdss_nt4_wdl",
+			"RH_sakeclass R",
+			"RH_sakeclass R_tg",
+			"RH_sakeclass R_des",
+			"RH_sakeclass R_wdl",
+			"RH_Sakeclass R762",
+			"RH_Sakeclass R762_tg",
+			"RH_Sakeclass R762_des",
+			"RH_Sakeclass R762_wdl",
+			"RH_fa556",
+			"RH_fa556_tg",
+			"RH_fa556_des",
+			"RH_fa556_wdl",
+			"RH_fa762",
+			"RH_fa762_tg",
+			"RH_fa762_des",
+			"RH_fa762_wdl",
+			"RH_spclass R_mbs",
+			"RH_spclass R_mbs_tg",
+			"RH_spclass R_mbs_des",
+			"RH_spclass R_mbs_wdl",
+			"RH_tundclass Ra",
+			"RH_tundclass Ra_tg",
+			"RH_tundclass Ra_des",
+			"RH_tundclass Ra_wdl",
+			"RH_m110sd",
+			"RH_m110sd_t",
+			"rhs_acc_tgpa",
+			"hlc_muzzle_Agendasix",
+			"hlc_muzzle_Agendasix10mm",
+			"hlc_muzzle_Tundra"
 		};
 	};
 
@@ -2335,12 +2495,60 @@ class CfgTraderCategories
 			"optic_LRPS",
 			"optic_MRCO",
 			"optic_MRD",
-			"optic_Nightstalker",
 			"optic_NVS",
 			"optic_SOS",
-			"optic_tws",
-			"optic_tws_mg",
-			"optic_Yorris"
+			"optic_Yorris",
+			"RH_eotech553", 								
+			"RH_eotech553mag", 							
+	 		"RH_eotech553_tan", 							
+	 		"RH_eotech553mag_tan", 						
+	 		"RH_eotexps3", 								
+	 		"RH_eotexps3_tan", 							
+	 		"RH_eothhs1", 								 
+	 		"RH_eothhs1_tan", 							
+	 		"RH_compm4s",								
+	 		"RH_compm2", 								
+	 		"RH_compm2l", 								
+	 		"RH_compm2_tan", 							 
+	 		"RH_compm2l_tan",							
+	 		"RH_t1", 									
+	 		"RH_t1_tan", 								
+	 		"RH_reflex", 								
+	 		"RH_shortdot", 							
+	 		"RH_m3lr", 									
+	 		"RH_ta01nsn", 								
+	 		"RH_ta01nsn_2D", 							
+	 		"RH_ta31rco", 								
+	 		"RH_ta31rco_2D", 							
+	 		"RH_ta31rmr", 								
+	 		"RH_ta31rmr_2D", 							
+	 		"RH_ta01nsn_tan", 							
+	 		"RH_ta01nsn_tan_2D", 						
+	 		"RH_ta31rco_tan", 							
+	 		"RH_ta31rco_tan_2D", 						
+	 		"RH_ta31rmr_tan", 							
+	 		"RH_ta31rmr_tan_2D", 						
+	 		"RH_ta648", 									
+	 		"RH_accupoint", 								
+	 		"RH_leu_mk4", 								 
+	 		"RH_c79", 									
+	 		"RH_c79_2D", 								
+	 		"RH_m145", 									
+	 		"RH_barska_rds", 							
+	 		"RH_cmore", 									
+	 		"RH_LTdocter", 								
+	 		"RH_LTdocterl", 								
+	 		"RH_zpoint", 								
+	 		"RH_anpvs10",
+	 		"hlc_optic_suit",
+	 		"rhs_acc_1p29",
+			"rhs_acc_1p63",
+			"rhs_acc_1pn93_1",
+			"rhs_acc_1pn93_2",
+			"rhs_acc_ekp1",
+			"rhs_acc_pgo7v",
+			"rhs_acc_pkas",
+			"rhs_acc_pso1m2" 
 		};
 	};
 
@@ -2407,6 +2615,7 @@ class CfgTraderCategories
 			"NVGoggles",
 			"NVGoggles_INDEP",
 			"NVGoggles_OPFOR",
+			"G_I_Diving",
 			"ItemGPS",
 			"ItemMap",
 			"ItemCompass",
