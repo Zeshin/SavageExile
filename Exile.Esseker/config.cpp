@@ -803,7 +803,7 @@ class CfgExileArsenal
 	class TRYK_V_ArmorVest_AOR2_2					{ quality = 3; price = 400; };
 	class TRYK_V_ArmorVest_Brown2					{ quality = 3; price = 400; };
 	class TRYK_V_ArmorVest_khk2						{ quality = 3; price = 400; };
-	class TRYK_V_ArmorVest_Ranger2					{ quality = 3; price = 400; };
+	//class TRYK_V_ArmorVest_Ranger2					{ quality = 3; price = 400; };
 	class TRYK_V_ArmorVest_AOR1_2					{ quality = 3; price = 400; };
 	class TRYK_V_ArmorVest_coyo2					{ quality = 3; price = 400; };
 	class TRYK_V_ArmorVest_Delta2					{ quality = 3; price = 400; };
@@ -950,18 +950,18 @@ class CfgExileArsenal
 	///////////////////////////////////////////////////////////////////////////////
 	// Helmets
 	///////////////////////////////////////////////////////////////////////////////
-	class H_HelmetIA								{ quality = 1; price = 40; };
-	class H_HelmetIA_camo							{ quality = 1; price = 40; };
-	class H_HelmetIA_net							{ quality = 1; price = 40; };
-	class H_HelmetB									{ quality = 2; price = 60; };
-	class H_HelmetB_black							{ quality = 2; price = 60; };
-	class H_HelmetB_camo							{ quality = 3; price = 80; }; // This one is awesome!
-	class H_HelmetB_desert							{ quality = 2; price = 60; };
-	class H_HelmetB_grass							{ quality = 2; price = 60; };
-	class H_HelmetB_paint							{ quality = 2; price = 60; };
-	class H_HelmetB_plain_blk						{ quality = 2; price = 60; };
-	class H_HelmetB_sand							{ quality = 2; price = 60; };
-	class H_HelmetB_snakeskin						
+	class H_HelmetIA								{ quality = 1; price = 200; };
+	class H_HelmetIA_camo							{ quality = 1; price = 200; };
+	class H_HelmetIA_net							{ quality = 1; price = 200; };
+	class H_HelmetB									{ quality = 2; price = 200; };
+	class H_HelmetB_black							{ quality = 2; price = 200; };
+	class H_HelmetB_camo							{ quality = 3; price = 200; }; // This one is awesome!
+	class H_HelmetB_desert							{ quality = 2; price = 200; };
+	class H_HelmetB_grass							{ quality = 2; price = 200; };
+	class H_HelmetB_paint							{ quality = 2; price = 200; };
+	class H_HelmetB_plain_blk						{ quality = 2; price = 200; };
+	class H_HelmetB_sand							{ quality = 2; price = 200; };
+	class H_HelmetB_snakeskin						{ quality = 2; price = 200; };
 
 	class TRYK_H_PASGT_BLK 							{ quality = 2; price = 200; };
 	class TRYK_H_PASGT_COYO 						{ quality = 2; price = 200; };
@@ -1012,20 +1012,20 @@ class CfgExileArsenal
 	///////////////////////////////////////////////////////////////////////////////
 	// Spec Ops Helmets
 	///////////////////////////////////////////////////////////////////////////////
-	class H_HelmetSpecB								{ quality = 2; price = 80; };
-	class H_HelmetSpecB_blk							{ quality = 2; price = 80; };
-	class H_HelmetSpecB_paint1						{ quality = 2; price = 80; };
-	class H_HelmetSpecB_paint2						{ quality = 2; price = 80; };
+	class H_HelmetSpecB								{ quality = 2; price = 200; };
+	class H_HelmetSpecB_blk							{ quality = 2; price = 200; };
+	class H_HelmetSpecB_paint1						{ quality = 2; price = 200; };
+	class H_HelmetSpecB_paint2						{ quality = 2; price = 200; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Super Helmets
 	///////////////////////////////////////////////////////////////////////////////
-	class H_HelmetO_ocamo							{ quality = 3; price = 150; };
-	class H_HelmetO_oucamo							{ quality = 3; price = 150; };
-	class H_HelmetSpecO_blk							{ quality = 3; price = 100; };
-	class H_HelmetSpecO_ocamo						{ quality = 3; price = 100; };
-	class H_HelmetLeaderO_ocamo						{ quality = 3; price = 200; };
-	class H_HelmetLeaderO_oucamo					{ quality = 3; price = 200; };
+	class H_HelmetO_ocamo							{ quality = 3; price = 300; };
+	class H_HelmetO_oucamo							{ quality = 3; price = 300; };
+	class H_HelmetSpecO_blk							{ quality = 3; price = 300; };
+	class H_HelmetSpecO_ocamo						{ quality = 3; price = 300; };
+	class H_HelmetLeaderO_ocamo						{ quality = 3; price = 300; };
+	class H_HelmetLeaderO_oucamo					{ quality = 3; price = 300; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Pointer Attachments
@@ -1232,39 +1232,28 @@ class CfgExileArsenal
 	// Backpacks
 	///////////////////////////////////////////////////////////////////////////////
 
-	class B_AssaultPack_blk							{ quality = 1; price = 90; };
-	class B_AssaultPack_cbr							{ quality = 1; price = 90; };
-	class B_AssaultPack_dgtl						{ quality = 1; price = 90; };
-	class B_AssaultPack_khk							{ quality = 1; price = 90; };
-	class B_AssaultPack_mcamo						{ quality = 1; price = 90; };
-	class B_AssaultPack_rgr							{ quality = 1; price = 90; };
-	class B_AssaultPack_sgg							{ quality = 1; price = 90; };
-	class B_FieldPack_blk							{ quality = 2; price = 120; };
-	class B_FieldPack_cbr							{ quality = 2; price = 120; };
-	class B_FieldPack_ocamo							{ quality = 2; price = 120; };
-	class B_FieldPack_oucamo						{ quality = 2; price = 120; };
-	class B_TacticalPack_blk						{ quality = 2; price = 150; };
-	class B_TacticalPack_rgr						{ quality = 2; price = 150; };
-	class B_TacticalPack_ocamo						{ quality = 2; price = 150; };
-	class B_TacticalPack_mcamo						{ quality = 2; price = 150; };
-	class B_TacticalPack_oli						{ quality = 2; price = 150; };
-	class B_Kitbag_cbr								{ quality = 3; price = 200; };
-	class B_Kitbag_mcamo							{ quality = 3; price = 200; };
-	class B_Kitbag_sgg								{ quality = 3; price = 200; };
-	class B_Carryall_cbr							{ quality = 3; price = 300; };
-	class B_Carryall_khk							{ quality = 3; price = 300; };
-	class B_Carryall_mcamo							{ quality = 3; price = 300; };
-	class B_Carryall_ocamo							{ quality = 3; price = 300; };
-	class B_Carryall_oli							{ quality = 3; price = 300; };
-	class B_Carryall_oucamo							{ quality = 3; price = 300; };
-	class B_Bergen_blk								{ quality = 2; price = 200; };
-	class B_Bergen_mcamo							{ quality = 2; price = 200; };
-	class B_Bergen_rgr								{ quality = 2; price = 200; };
-	class B_Bergen_sgg								{ quality = 2; price = 200; };
-	class B_HuntingBackpack							{ quality = 3; price = 250; };
-	class B_OutdoorPack_blk							{ quality = 1; price = 80; };
-	class B_OutdoorPack_blu							{ quality = 1; price = 80; };
-	class B_OutdoorPack_tan							{ quality = 1; price = 80; };
+	class TRYK_B_AssaultPack_MARPAT_Wood			{ quality = 2; price = 150; };
+	class TRYK_B_AssaultPack_Type2camo				{ quality = 2; price = 150; };
+	class TRYK_B_AssaultPack_UCP					{ quality = 2; price = 150; };
+	class TRYK_B_Coyotebackpack_BLK					{ quality = 2; price = 150; };
+	class TRYK_B_Coyotebackpack 					{ quality = 2; price = 150; };
+	class TRYK_B_Coyotebackpack_OD 					{ quality = 2; price = 150; };
+	class TRYK_B_Carryall_JSDF 						{ quality = 2; price = 400; };
+	class TRYK_B_Carryall_blk 						{ quality = 2; price = 450; };
+	class TRYK_B_Carryall_wood 						{ quality = 2; price = 450; };
+	class TRYK_B_Kitbag_aaf 						{ quality = 2; price = 150; };
+	class TRYK_B_Kitbag_blk 						{ quality = 2; price = 150; };
+	class TRYK_B_Kitbag_Base 						{ quality = 2; price = 150; };
+	class TRYK_B_Kitbag_Base_JSDF 					{ quality = 2; price = 150; };
+	class TRYK_B_Medbag_BK	       					{ quality = 2; price = 150; };
+	class TRYK_B_Medbag_OD 							{ quality = 2; price = 150; };
+	class TRYK_B_Medbag_ucp 						{ quality = 2; price = 150; };
+	class TRYK_B_BAF_BAG_BLK 						{ quality = 2; price = 150; };
+	class TRYK_B_BAF_BAG_CYT 						{ quality = 2; price = 150; };
+	class TRYK_B_BAF_BAG_mcamo 						{ quality = 2; price = 150; };
+	class TRYK_B_BAF_BAG_OD 						{ quality = 2; price = 150; };
+	class TRYK_B_BAF_BAG_rgr 						{ quality = 2; price = 150; };
+
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Ammunition
@@ -1457,6 +1446,22 @@ class CfgExileArsenal
 	class arifle_TRG20_F							{ quality = 1; price = 250; };
 	class arifle_TRG21_F							{ quality = 1; price = 250; };
 	class arifle_TRG21_GL_F							{ quality = 2; price = 350; };
+
+	class RH_Hk416  								{ quality = 2; price = 350; };
+	class RH_M16A4gl  								{ quality = 2; price = 350; };
+	class RH_M16A4_m  								{ quality = 2; price = 350; };
+	class RH_M27IAR  								{ quality = 2; price = 350; };
+	class RH_M4_ris_m  								{ quality = 2; price = 350; };
+	class RH_M4A1_ris_M203s  						{ quality = 2; price = 350; };
+	class hlc_rifle_falosw  						{ quality = 2; price = 350; };
+	class hlc_rifle_osw_GL  						{ quality = 2; price = 350; };
+	class hlc_rifle_c1A1  							{ quality = 2; price = 350; };
+	class hlc_rifle_FAL5061  						{ quality = 2; price = 350; };
+	class hlc_rifle_STG58F  						{ quality = 2; price = 350; };
+	class rhs_weap_ak74m  							{ quality = 2; price = 350; };
+	class rhs_weap_ak74m_2mag 						{ quality = 2; price = 350; };
+	class rhs_weap_ak74m_folded 					{ quality = 2; price = 350; };
+	class rhs_weap_ak74m_gp25  						{ quality = 2; price = 350; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Sniper Rifles
