@@ -4,16 +4,12 @@ class rhs_gaz66_ammo_vmf
 class rhs_gaz66_r142_vmf
 class rhs_gaz66_ap2_vmf
 class rhs_gaz66_repair_vmf
-//class rhs_tigr_vv
-//class rhs_tigr_msv
 class rhs_tigr_vmf
-//class rhs_tigr_vdv
+
 
 //M10 (armed 50cal) (Vehicle)
 class rhsusf_m1025_d_m2
 class rhsusf_m1025_w_m2
-//class rhsusf_m1025_d_Mk19
-//class rhsusf_m1025_w_mk19
 
 //M10 / M98 (unarmed) (Vehicle)
 class rhsusf_m1025_w
@@ -30,21 +26,32 @@ class rhs_uaz_open_MSV_01
 
 //URAL (unarmed) (Vehicle)
 class RHS_Ural_MSV_01
-class RHS_Ural_Open_Civ_01
-class RHS_Ural_Fuel_MSV_01
 class RHS_Ural_Open_MSV_01
-
-//CH-47f (armed 50cal) (Heli)
-//class RHS_CH_47F
-
-//KA-60 (unarmed) (Heli)
-class rhs_ka60_grey
 
 //Mi8 (unarmed) (Heli)
 class RHS_Mi8AMT_vvs
 class RHS_Mi8mt_vvs
 
-//UH60 (unarmed) (Heli)
-//class RHS_UH60M
-//class RHS_UH60M_MEV
 
+
+class rhs_gaz66_vmf 								{ quality = 1; price = 3000; };
+	class rhs_gaz66_ammo_vmf 							{ quality = 2; price = 10000; };
+	class rhs_gaz66_r142_vmf 							{ quality = 2; price = 10000; };
+	class rhs_gaz66_ap2_vmf 							{ quality = 2; price = 20000; };
+	class rhs_gaz66_repair_vmf 							{ quality = 2; price = 10000; };
+	class rhs_tigr_vmf 									{ quality = 2; price = 4000; };
+	class rhsusf_m1025_d_m2                             { quality = 2; price = 10000; };
+	class rhsusf_m1025_w_m2  							{ quality = 2; price = 10000; };
+	class rhsusf_m1025_w 								{ quality = 2; price = 2000; };
+	class rhsusf_m1025_d 								{ quality = 2; price = 2000; };
+	class rhsusf_m1025_d 								{ quality = 2; price = 2000; };
+	class rhsusf_m998_d_2dr 							{ quality = 2; price = 2000; };
+	class rhsusf_m998_w_2dr 							{ quality = 2; price = 2000; };
+	class rhsusf_m998_w_4dr 							{ quality = 2; price = 2000; };
+	class rhsusf_m998_w_4dr 							{ quality = 2; price = 2000; };
+	class RHS_UAZ_MSV_01   								{ quality = 2; price = 2000; };						
+	class rhs_uaz_open_MSV_01 							{ quality = 2; price = 2000; };
+	class RHS_Ural_MSV_01 								{ quality = 2; price = 5000; };
+	class RHS_Ural_Open_MSV_01 							{ quality = 2; price = 5000; }; 						
+	class RHS_Mi8AMT_vvs 								{ quality = 2; price = 7000; };
+	class RHS_Mi8mt_vvs  							    { quality = 2; price = 7000; };
