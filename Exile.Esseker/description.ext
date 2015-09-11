@@ -4,9 +4,9 @@ forceRotorLibSimulation = 2;
 // https://community.bistudio.com/wiki/Description.ext#disableChannels
 disableChannels[] = {0, 2};
 
-author = "Exile Mod Team | Essker Ported by CRE4MPIE";
-loadScreen = "loading.paa"; 
-onLoadMission= "www.exilemod.com | www.gamersinc.net";
+author = "Exile Mod Team | Esseker Modified AlexBurdin";
+loadScreen = "loading.paa";
+onLoadMission= "www.exilemod.com | ts.savagekilllers.com";
 OnLoadIntro = "";
 OnLoadIntroTime = false;
 OnLoadMissionTime = false;
@@ -16,7 +16,7 @@ class Header
 {
 	gameType = Sandbox;
 	minPlayers = 1;
-	maxPlayers = 100;
+	maxPlayers = 60;
 };
 
 // DO NOT CHANGE THIS! +
@@ -26,11 +26,11 @@ respawn = "BASE";
 respawnDelay = 120;
 respawnDialog = 0;
 respawnOnStart = 0;
-respawnButton = 1; 
+respawnButton = 1;
 respawnTemplates[] = {"Exile"};
 // DO NOT CHANGE THIS! -
 
-// When scripted player is enabled, game no longer shows "No player select" error message upon mission start when no player unit is present. 
+// When scripted player is enabled, game no longer shows "No player select" error message upon mission start when no player unit is present.
 scriptedPlayer = 1;
 
 // Automatically take a free slot in lobby
@@ -45,13 +45,13 @@ enableItemsDropping = 0;
 // Briefing will still be displayed until all clients are connected and done loading :(
 briefing = 0;
 
-// Defines if the debriefing is shown or not at the end of the mission. 
+// Defines if the debriefing is shown or not at the end of the mission.
 debriefing = 0;
 
 // Allow RPT loging
 allowFunctionsLog = 1;
 
-// Allows access to the Debug Console outside of the editor during normal gameplay. 
+// Allows access to the Debug Console outside of the editor during normal gameplay.
 // 0 = Default behavior, available only in editor
 // 1 = Available in SP and for hosts / logged in admins
 // 2 = Available for everyone
