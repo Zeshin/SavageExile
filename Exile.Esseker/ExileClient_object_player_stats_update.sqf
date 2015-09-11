@@ -3,14 +3,14 @@
  * www.exilemod.com
  * © 2015 Exile Mod Team
  *
- * This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. 
+ * This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.
  * To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/4.0/.
  */
- 
+
 private["_timeElapsed","_hungerFactor","_thirstFactor","_bloodAlcohol","_effectAttribute","_effectValue","_effectDuration","_effectStartTime","_effectValueRemaining","_endEffect","_effectToApply","_hunger","_thirst"];
-if (isNil "ExileLastStatUpdate") then 
-{ 
-	ExileLastStatUpdate = diag_tickTime; 
+if (isNil "ExileLastStatUpdate") then
+{
+	ExileLastStatUpdate = diag_tickTime;
 };
 _timeElapsed = diag_tickTime - ExileLastStatUpdate;
 ExileClientPlayerLoad = loadAbs player;
@@ -22,7 +22,7 @@ ExileClientPlayerIsInfantry = vehicle player == player;
 ExileClientPlayerVelocity = player call BIS_fnc_absSpeed;
 ExileClientPlayerIsBleeding = isBleeding player;
 ExileClientPlayerIsBurning = isBurning player;
-ExileClientPlayerIsOverburdened = ExileClientPlayerLoad > 900; 
+ExileClientPlayerIsOverburdened = ExileClientPlayerLoad > 900;
 ExileClientPlayerIsDrowning = ExileClientPlayerOxygen < 50;
 ExileClientPlayerIsInjured = (ExileClientPlayerAttributes select 0) < 50;
 ExileClientPlayerIsHungry = (ExileClientPlayerAttributes select 2) < 25;
@@ -38,21 +38,21 @@ if( ExileClientPlayerIsInCombat ) then
 	{
 		ExileClientPlayerIsInCombat = false;
 		false call ExileClient_gui_hud_toggleCombatIcon;
-		call ExileClient_system_rating_balance;		
+		call ExileClient_system_rating_balance;
 	};
 };
 _hungerFactor = 1;
 _thirstFactor = 1;
-if (ExileClientPlayerIsInfantry) then 
+if (ExileClientPlayerIsInfantry) then
 {
-	if (ExileClientPlayerVelocity > 0) then 
+	if (ExileClientPlayerVelocity > 0) then
 	{
-		_hungerFactor = 1 + ExileClientPlayerVelocity / 40 * _timeElapsed; 
-		_thirstFactor = 1 + ExileClientPlayerVelocity / 20 * _timeElapsed; 
+		_hungerFactor = 1 + ExileClientPlayerVelocity / 40 * _timeElapsed;
+		_thirstFactor = 1 + ExileClientPlayerVelocity / 20 * _timeElapsed;
 	};
 };
-ExileClientPlayerAttributes set [2, ((((ExileClientPlayerAttributes select 2) - (100 / 5400 * _hungerFactor * _timeElapsed)) min 100) max 0)];
-ExileClientPlayerAttributes set [3, ((((ExileClientPlayerAttributes select 3) - (100 / 3600 * _thirstFactor * _timeElapsed)) min 100) max 0)];
+ExileClientPlayerAttributes set [2, ((((ExileClientPlayerAttributes select 2) - (100 / 10800 * _hungerFactor * _timeElapsed)) min 100) max 0)];
+ExileClientPlayerAttributes set [3, ((((ExileClientPlayerAttributes select 3) - (100 / 7200 * _thirstFactor * _timeElapsed)) min 100) max 0)];
 if (ExileClientPlayerIsOverburdened) then
 {
 	ExileClientPlayerAttributes set [1, ((((ExileClientPlayerAttributes select 1) - 5 * _timeElapsed) min 100) max 0)];
@@ -72,27 +72,27 @@ if (_bloodAlcohol > 0) then
 	_effectDuration = _x select 2;
 	_effectStartTime = _x select 3;
 	_effectValueRemaining = _x select 4;
-	_endEffect = time - _effectStartTime >= _effectDuration; 
-	if( _effectValue > 0 ) then 
+	_endEffect = time - _effectStartTime >= _effectDuration;
+	if( _effectValue > 0 ) then
 	{
-		if (_effectDuration == 0) then 
+		if (_effectDuration == 0) then
 		{
 			_effectToApply = _effectValue;
 		}
-		else 
+		else
 		{
 			_effectToApply = (_effectValue / _effectDuration * _timeElapsed) min _effectValueRemaining;
 		};
 		_x set [4, _effectValueRemaining - _effectToApply];
 		ExileClientPlayerAttributes set [_effectAttribute, ((((ExileClientPlayerAttributes select _effectAttribute) + _effectToApply) min 100) max 0)];
 	}
-	else 
+	else
 	{
-		if (_effectDuration == 0) then 
+		if (_effectDuration == 0) then
 		{
 			_effectToApply = abs _effectValue;
 		}
-		else 
+		else
 		{
 			_effectToApply = ((abs _effectValue) / _effectDuration * _timeElapsed) max _effectValueRemaining;
 		};
@@ -120,7 +120,7 @@ if (diag_tickTime - ExileClientPlayerLastHpRegenerationAt >= 60) then
 		{
 			player setDamage (((damage player) - 0.02) max 0);
 			ExileClientPlayerLastHpRegenerationAt = diag_tickTime;
-		};	
+		};
 	};
 };
 ExileLastStatUpdate = diag_tickTime;
