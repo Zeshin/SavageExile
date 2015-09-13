@@ -47,8 +47,8 @@ if (ExileClientPlayerIsInfantry) then
 {
 	if (ExileClientPlayerVelocity > 0) then
 	{
-		_hungerFactor = 1 + ExileClientPlayerVelocity / 40 * _timeElapsed;
-		_thirstFactor = 1 + ExileClientPlayerVelocity / 20 * _timeElapsed;
+		_hungerFactor = 1 + ExileClientPlayerVelocity / 80 * _timeElapsed;
+		_thirstFactor = 1 + ExileClientPlayerVelocity / 50 * _timeElapsed;
 	};
 };
 ExileClientPlayerAttributes set [2, ((((ExileClientPlayerAttributes select 2) - (100 / 10800 * _hungerFactor * _timeElapsed)) min 100) max 0)];

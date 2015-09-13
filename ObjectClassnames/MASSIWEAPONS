@@ -1,0 +1,363 @@
+HK417
+arifle_mas_hk417c			20Rnd_762x51_Mag
+arifle_mas_hk417_m203c
+arifle_mas_hk417c_v
+arifle_mas_hk417_m203c_v
+srifle_mas_hk417
+srifle_mas_hk417_v
+
+SR25
+srifle_mas_sr25
+srifle_mas_sr25_v
+
+M110
+srifle_mas_m110
+
+MK17
+srifle_mas_mk17s
+
+EBR
+srifle_mas_ebr
+
+M107
+srifle_mas_m107
+srifle_mas_m107_v
+
+M24
+srifle_mas_m24
+srifle_mas_m24_v
+
+LRR AWM
+srifle_mas_lrr
+
+MP5
+arifle_mas_mp5
+arifle_mas_mp5_v
+arifle_mas_mp5sd
+arifle_mas_mp5sd_ds
+
+MP7 Rifle
+hgun_mas_mp7_F
+
+MP7 Pistol
+hgun_mas_mp7p_F
+
+M249
+LMG_mas_M249_F
+LMG_mas_M249_F_v
+
+MK48
+LMG_mas_Mk48_F
+LMG_mas_Mk48_F_v
+
+M240
+LMG_mas_M240_F
+
+MG3
+LMG_mas_mg3_F
+
+M60E4
+LMG_mas_M60_F
+
+AK74
+arifle_mas_ak_74m
+arifle_mas_ak_74m_gl
+arifle_mas_ak_74m_c
+arifle_mas_ak_74m_gl_c
+arifle_mas_aks74
+arifle_mas_ak74
+arifle_mas_ak74_gl
+arifle_mas_ak_74m_sf
+arifle_mas_ak_74m_sf_gl
+arifle_mas_ak_74m_sf_c
+arifle_mas_ak_74m_sf_gl_c
+arifle_mas_aks_74_sf
+arifle_mas_aks_74_sf_gl
+arifle_mas_ak12_sf
+arifle_mas_ak12_sf_gl
+arifle_mas_akms
+arifle_mas_akms_gl
+arifle_mas_akms_c
+arifle_mas_akm
+arifle_mas_akm_gl
+
+BIZON
+arifle_mas_bizon
+
+SAIGA
+arifle_mas_saiga
+
+ZASTAVA M91 SNIPER RIFLE
+srifle_mas_m91
+
+M72
+ZASTAVA M72 LMG
+
+SVD
+srifle_mas_svd
+
+VSS Vintorez
+srifle_mas_vss
+
+AS VAL
+arifle_mas_asval
+
+KSVK
+srifle_mas_ksvk
+srifle_mas_ksvk_c
+
+AK74U
+arifle_mas_aks74u
+arifle_mas_aks74u_c
+
+RPK
+LMG_mas_rpk_F
+
+PKM
+LMG_mas_pkm_F
+LMG_mas_pech_F
+
+MICRO UZI
+hgun_mas_uzi_F
+
+SA61 SKORPION
+hgun_mas_sa61_F
+
+
+Scar-L
+
+Scar-h
+
+G3
+
+FN FAL
+
+M14
+
+MP40
+
+Sten MK II
+
+Lee Einfield
+
+M1014 BENELI
+
+AA-12
+
+AMMO
+mas_PG7V
+ mas_PG7L
+ mas_PG7VR
+ mas_OG7
+ mas_TBG7V
+ mas_PG18
+ mas_Metis
+ mas_Metis_HE
+ mas_LAW
+ mas_M136
+ mas_M136_HE
+ mas_MAAWS
+ mas_MAAWS_HE
+ mas_SMAW
+ mas_SMAW_HE
+ mas_SMAW_NE
+ mas_NLAW
+ mas_NLAW_HE
+ mas_TitanS
+ mas_TitanS_HE
+ mas_Stinger
+ mas_Strela
+ Sting_mas_AA_F
+ RPG32_mas_AA_F
+ 30Rnd_mas_556x45_Stanag
+ 30Rnd_mas_556x45_T_Stanag
+ 200Rnd_mas_556x45_Stanag
+ 200Rnd_mas_556x45_T_Stanag
+ 100Rnd_mas_762x51_Stanag
+ 100Rnd_mas_762x51_T_Stanag
+ 100Rnd_mas_762x54_mag
+ 100Rnd_mas_762x54_T_mag
+ 100Rnd_mas_762x39_mag
+ 100Rnd_mas_762x39_T_mag
+ 30Rnd_mas_545x39_mag
+ 30Rnd_mas_545x39_T_mag
+ 100Rnd_mas_545x39_mag
+ 100Rnd_mas_545x39_T_mag
+ 20Rnd_mas_762x51_Stanag
+ 20Rnd_mas_762x51_T_Stanag
+ 5Rnd_mas_762x51_Stanag
+ 5Rnd_mas_762x51_T_Stanag
+ 10Rnd_mas_338_Stanag
+ 10Rnd_mas_338_T_Stanag
+ 30Rnd_mas_762x39_mag
+ 30Rnd_mas_762x39_T_mag
+ 10Rnd_mas_762x54_mag
+ 10Rnd_mas_762x54_T_mag
+ 5Rnd_mas_127x99_Stanag
+ 5Rnd_mas_127x99_dem_Stanag
+ 5Rnd_mas_127x99_T_Stanag
+ 5Rnd_mas_127x108_mag
+ 5Rnd_mas_127x108_dem_mag
+ 5Rnd_mas_127x108_T_mag
+ 30Rnd_mas_9x21_Stanag
+ 30Rnd_mas_9x21d_Stanag
+ 12Rnd_mas_45acp_Mag
+ 10Rnd_mas_45acp_Mag
+ 8Rnd_mas_45acp_Mag
+ 15Rnd_mas_9x21_Mag
+ 17Rnd_mas_9x21_Mag
+ 13Rnd_mas_9x21_Mag
+ 8Rnd_mas_9x18_mag
+ 7Rnd_mas_12Gauge_Slug
+ 7Rnd_mas_12Gauge_Pellets
+ 10Rnd_mas_12Gauge_Slug
+ 10Rnd_mas_12Gauge_Pellets
+ 64Rnd_mas_9x18_mag
+ 20Rnd_mas_765x17_Mag
+ 25Rnd_mas_9x19_Mag
+ 40Rnd_mas_46x30_Mag
+ 2Rnd_mas_Missile_AA_03_F
+ 4Rnd_mas_Missile_AGM_01_F
+ 2Rnd_mas_r_Missile_AA_03_F
+ 4Rnd_mas_r_Missile_AGM_01_F
+ 20Rnd_mas_Rocket_03_HE_F
+ 20Rnd_mas_Rocket_03_AP_F
+ 2Rnd_mas_Bomb_03_F
+ 2Rnd_mas_r_Bomb_03_F
+ 24Rnd_mas_PG_missiles
+ 12Rnd_mas_PG_HE_missiles
+12Rnd_mas_PG_missiles
+ 20Rnd_mas_12Gauge_Slug
+ 20Rnd_mas_12Gauge_Pellets
+ 20Rnd_mas_12Gauge_Demo
+ 150Rnd_mas_556x45_Stanag
+ 150Rnd_mas_556x45_T_Stanag
+
+
+FACE GEAR
+G_mas_wpn_gog
+ G_mas_wpn_gog_d
+ G_mas_wpn_gog_m
+ G_mas_wpn_gog_md
+ G_mas_wpn_gog_g
+ G_mas_wpn_gog_gd
+ G_mas_wpn_mask
+ G_mas_wpn_mask_b
+ G_mas_wpn_wrap
+ G_mas_wpn_wrap_f
+ G_mas_wpn_wrap_t
+ G_mas_wpn_wrap_b
+ G_mas_wpn_wrap_c
+ G_mas_wpn_wrap_g
+ G_mas_wpn_wrap_gog
+ G_mas_wpn_wrap_gog_f
+ G_mas_wpn_wrap_gog_t
+ G_mas_wpn_wrap_gog_b
+ G_mas_wpn_wrap_gog_c
+ G_mas_wpn_wrap_gog_g
+ G_mas_wpn_wrap_mask
+ G_mas_wpn_wrap_mask_t
+ G_mas_wpn_wrap_mask_f
+ G_mas_wpn_wrap_mask_b
+ G_mas_wpn_wrap_mask_c
+ G_mas_wpn_wrap_mask_g
+ G_mas_wpn_bala
+ G_mas_wpn_bala_b
+ G_mas_wpn_bala_t
+ G_mas_wpn_bala_gog
+ G_mas_wpn_bala_gog_b
+ G_mas_wpn_bala_gog_t
+ G_mas_wpn_bala_mask
+ G_mas_wpn_bala_mask_b
+ G_mas_wpn_bala_mask_t
+ G_mas_wpn_shemag
+ G_mas_wpn_shemag_r
+ G_mas_wpn_shemag_w
+ G_mas_wpn_shemag_gog
+ G_mas_wpn_shemag_mask
+ G_mas_wpn_gasmask
+
+
+
+UGL_FlareRed_F
+3Rnd_UGL_FlareWhite_F
+3Rnd_UGL_FlareGreen_F
+3Rnd_UGL_FlareRed_F
+3Rnd_UGL_FlareYellow_F
+3Rnd_UGL_FlareCIR_F
+3Rnd_Smoke_Grenade_shell
+
+Tools
+Rangefinder_mas_h
+
+IR POINTERS
+acc_mas_flash_gun
+ acc_mas_pointer_gun_IR
+ acc_mas_pointer_IR
+ acc_mas_pointer_IR_b
+ acc_mas_pointer_IR_top
+ acc_mas_pointer_IR_top_b
+ acc_mas_pointer_IR2
+ acc_mas_pointer_IR2_top
+ acc_mas_pointer_IR2c
+ acc_mas_pointer_IR2c_top
+
+Optics
+muzzle_mas_snds_L
+ muzzle_mas_snds_LM
+ muzzle_mas_snds_C
+ muzzle_mas_snds_MP5SD6
+ muzzle_mas_snds_M
+ muzzle_mas_snds_Mc
+ muzzle_mas_snds_MP7
+ muzzle_mas_snds_AK
+ muzzle_mas_snds_SM
+ muzzle_mas_snds_SMc
+ muzzle_mas_snds_SH
+ muzzle_mas_snds_SHc
+ muzzle_mas_snds_SV
+ muzzle_mas_snds_SVc
+ muzzle_mas_snds_SVD
+ muzzle_mas_snds_KSVK
+ optic_mas_DMS
+ optic_mas_DMS_c
+ optic_mas_Holosight_blk
+ optic_mas_Holosight_camo
+ optic_mas_Arco_blk
+ optic_mas_Arco_camo
+ optic_mas_Hamr_camo
+ optic_mas_Aco_camo
+ optic_mas_ACO_grn_camo
+ optic_mas_MRCO_camo
+ optic_mas_zeiss
+ optic_mas_zeiss_c
+ optic_mas_zeiss_eo
+ optic_mas_zeiss_eo_c
+ optic_mas_acog
+ optic_mas_acog_c
+ optic_mas_acog_eo
+ optic_mas_acog_eo_c
+ optic_mas_acog_rd
+ optic_mas_acog_rd_c
+ optic_mas_handle
+ optic_mas_aim
+ optic_mas_aim_c
+ optic_mas_PSO
+ optic_mas_PSO_c
+ optic_mas_PSO_eo
+ optic_mas_PSO_eo_c
+ optic_mas_PSO_nv
+ optic_mas_PSO_nv_c
+ optic_mas_PSO_nv_eo
+ optic_mas_PSO_nv_eo_c
+ optic_mas_PSO_day
+ optic_mas_PSO_nv_day
+ optic_mas_term
+ optic_mas_MRD
+ optic_mas_LRPS
+ optic_mas_kobra
+ optic_mas_kobra_c
+ optic_mas_nspu
+ optic_mas_goshawk
+ optic_mas_PSO_kv
+ optic_mas_PSO_kv_c
