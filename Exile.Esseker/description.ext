@@ -26,7 +26,7 @@ respawn = "BASE";
 respawnDelay = 120;
 respawnDialog = 0;
 respawnOnStart = 0;
-respawnButton = 1;
+respawnButton = 0;
 respawnTemplates[] = {"Exile"};
 // DO NOT CHANGE THIS! -
 
