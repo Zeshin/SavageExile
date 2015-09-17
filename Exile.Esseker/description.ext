@@ -19,6 +19,8 @@ class Header
 	maxPlayers = 60;
 };
 
+#include "infiSTAR_AdminMenu.hpp"
+
 // DO NOT CHANGE THIS! +
 showHUD = 0;
 
