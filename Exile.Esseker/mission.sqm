@@ -8,8 +8,6 @@ class Mission
 		"cabuildings_misc",
 		"aia_misc_e_config",
 		"A3_Modules_F",
-		"A3_Characters_F_BLUFOR",
-		"a3_characters_f",
 		"A3_Armor_F_Panther",
 		"A3_Modules_F_Effects",
 		"A3_Structures_F_Wrecks",
@@ -30,7 +28,14 @@ class Mission
 		"A3_Air_F_Heli_Light_01",
 		"sar_ru_architecture",
 		"ryanzombiesfunctions",
-		"ryanzombies"
+		"ryanzombies",
+		"rickb_a3items",
+		"rickb_items",
+		"3DEN",
+		"a3_modules_f_curator_curator",
+		"A3_Characters_F",
+		"A3_Characters_F_INDEP",
+		"A3_Structures_F_Mil_Helipads"
 	};
 	addOnsAuto[]=
 	{
@@ -38,6 +43,12 @@ class Mission
 		"A3_Modules_F",
 		"ryanzombiesfunctions",
 		"ryanzombies",
+		"rickb_a3items",
+		"rickb_items",
+		"3DEN",
+		"a3_modules_f_curator_curator",
+		"A3_Characters_F",
+		"A3_Structures_F_Mil_Helipads",
 		"esseker"
 	};
 	randomSeed=8080942;
@@ -46,10 +57,11 @@ class Mission
 		briefingName="EXILE Esseker v0.4a - ts.savagekillers.com";
 		overviewText="EXILE Esseker v0.4a - ts.savagekillers.com";
 		resistanceWest=0;
-		startFog=0.69999999;
+		startWeather=0.89999998;
+		startFog=0.44999999;
 		startWind=0.099999994;
 		startWaves=0.099999994;
-		forecastWeather=0;
+		forecastWeather=0.69999999;
 		forecastWind=0.099999994;
 		forecastWaves=0.099999994;
 		forecastLightnings=0.099999994;
@@ -63,13 +75,13 @@ class Mission
 	};
 	class Groups
 	{
-		items=19;
+		items=14;
 		class Item0
 		{
 			side="GUER";
 			class Vehicles
 			{
-				items=100;
+				items=60;
 				class Item0
 				{
 					position[]={220.15672,105.74422,363.0979};
@@ -77,9 +89,13 @@ class Mission
 					id=0;
 					side="GUER";
 					vehicle="Exile_Unit_GhostPlayer";
-					player="PLAYER COMMANDER";
+					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
+					text="s11";
+					init="null = [this] execVM ""rick_survival\rick_mask_breathe.sqf"";";
+					syncId=0;
+					synchronizations[]={59};
 				};
 				class Item1
 				{
@@ -90,6 +106,10 @@ class Mission
 					vehicle="Exile_Unit_GhostPlayer";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="s10";
+					init="null = [this] execVM ""rick_survival\rick_mask_breathe.sqf"";";
+					syncId=1;
+					synchronizations[]={59};
 				};
 				class Item2
 				{
@@ -100,6 +120,10 @@ class Mission
 					vehicle="Exile_Unit_GhostPlayer";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="s9";
+					init="null = [this] execVM ""rick_survival\rick_mask_breathe.sqf"";";
+					syncId=2;
+					synchronizations[]={59};
 				};
 				class Item3
 				{
@@ -110,6 +134,10 @@ class Mission
 					vehicle="Exile_Unit_GhostPlayer";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="s8";
+					init="null = [this] execVM ""rick_survival\rick_mask_breathe.sqf"";";
+					syncId=3;
+					synchronizations[]={59};
 				};
 				class Item4
 				{
@@ -120,6 +148,10 @@ class Mission
 					vehicle="Exile_Unit_GhostPlayer";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="s7";
+					init="null = [this] execVM ""rick_survival\rick_mask_breathe.sqf"";";
+					syncId=4;
+					synchronizations[]={59};
 				};
 				class Item5
 				{
@@ -130,6 +162,10 @@ class Mission
 					vehicle="Exile_Unit_GhostPlayer";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="s6";
+					init="null = [this] execVM ""rick_survival\rick_mask_breathe.sqf"";";
+					syncId=5;
+					synchronizations[]={59};
 				};
 				class Item6
 				{
@@ -140,6 +176,10 @@ class Mission
 					vehicle="Exile_Unit_GhostPlayer";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="s5";
+					init="null = [this] execVM ""rick_survival\rick_mask_breathe.sqf"";";
+					syncId=6;
+					synchronizations[]={59};
 				};
 				class Item7
 				{
@@ -150,6 +190,10 @@ class Mission
 					vehicle="Exile_Unit_GhostPlayer";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="s4";
+					init="null = [this] execVM ""rick_survival\rick_mask_breathe.sqf"";";
+					syncId=7;
+					synchronizations[]={59};
 				};
 				class Item8
 				{
@@ -160,6 +204,10 @@ class Mission
 					vehicle="Exile_Unit_GhostPlayer";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="s3";
+					init="null = [this] execVM ""rick_survival\rick_mask_breathe.sqf"";";
+					syncId=8;
+					synchronizations[]={59};
 				};
 				class Item9
 				{
@@ -170,6 +218,10 @@ class Mission
 					vehicle="Exile_Unit_GhostPlayer";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="s2";
+					init="null = [this] execVM ""rick_survival\rick_mask_breathe.sqf"";";
+					syncId=9;
+					synchronizations[]={59};
 				};
 				class Item10
 				{
@@ -180,6 +232,10 @@ class Mission
 					vehicle="Exile_Unit_GhostPlayer";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="s22";
+					init="null = [this] execVM ""rick_survival\rick_mask_breathe.sqf"";";
+					syncId=10;
+					synchronizations[]={59};
 				};
 				class Item11
 				{
@@ -190,6 +246,10 @@ class Mission
 					vehicle="Exile_Unit_GhostPlayer";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="s21";
+					init="null = [this] execVM ""rick_survival\rick_mask_breathe.sqf"";";
+					syncId=11;
+					synchronizations[]={59};
 				};
 				class Item12
 				{
@@ -200,6 +260,10 @@ class Mission
 					vehicle="Exile_Unit_GhostPlayer";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="s20";
+					init="null = [this] execVM ""rick_survival\rick_mask_breathe.sqf"";";
+					syncId=12;
+					synchronizations[]={59};
 				};
 				class Item13
 				{
@@ -210,6 +274,10 @@ class Mission
 					vehicle="Exile_Unit_GhostPlayer";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="s19";
+					init="null = [this] execVM ""rick_survival\rick_mask_breathe.sqf"";";
+					syncId=13;
+					synchronizations[]={59};
 				};
 				class Item14
 				{
@@ -220,6 +288,10 @@ class Mission
 					vehicle="Exile_Unit_GhostPlayer";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="s18";
+					init="null = [this] execVM ""rick_survival\rick_mask_breathe.sqf"";";
+					syncId=14;
+					synchronizations[]={59};
 				};
 				class Item15
 				{
@@ -230,6 +302,10 @@ class Mission
 					vehicle="Exile_Unit_GhostPlayer";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="s17";
+					init="null = [this] execVM ""rick_survival\rick_mask_breathe.sqf"";";
+					syncId=15;
+					synchronizations[]={59};
 				};
 				class Item16
 				{
@@ -240,6 +316,10 @@ class Mission
 					vehicle="Exile_Unit_GhostPlayer";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="s16";
+					init="null = [this] execVM ""rick_survival\rick_mask_breathe.sqf"";";
+					syncId=16;
+					synchronizations[]={59};
 				};
 				class Item17
 				{
@@ -250,6 +330,10 @@ class Mission
 					vehicle="Exile_Unit_GhostPlayer";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="s14";
+					init="null = [this] execVM ""rick_survival\rick_mask_breathe.sqf"";";
+					syncId=17;
+					synchronizations[]={59};
 				};
 				class Item18
 				{
@@ -260,6 +344,10 @@ class Mission
 					vehicle="Exile_Unit_GhostPlayer";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="s13";
+					init="null = [this] execVM ""rick_survival\rick_mask_breathe.sqf"";";
+					syncId=18;
+					synchronizations[]={59};
 				};
 				class Item19
 				{
@@ -270,6 +358,10 @@ class Mission
 					vehicle="Exile_Unit_GhostPlayer";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="s12";
+					init="null = [this] execVM ""rick_survival\rick_mask_breathe.sqf"";";
+					syncId=19;
+					synchronizations[]={59};
 				};
 				class Item20
 				{
@@ -280,6 +372,10 @@ class Mission
 					vehicle="Exile_Unit_GhostPlayer";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="s23";
+					init="null = [this] execVM ""rick_survival\rick_mask_breathe.sqf"";";
+					syncId=20;
+					synchronizations[]={59};
 				};
 				class Item21
 				{
@@ -290,6 +386,10 @@ class Mission
 					vehicle="Exile_Unit_GhostPlayer";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="s24";
+					init="null = [this] execVM ""rick_survival\rick_mask_breathe.sqf"";";
+					syncId=21;
+					synchronizations[]={59};
 				};
 				class Item22
 				{
@@ -300,6 +400,10 @@ class Mission
 					vehicle="Exile_Unit_GhostPlayer";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="s25";
+					init="null = [this] execVM ""rick_survival\rick_mask_breathe.sqf"";";
+					syncId=22;
+					synchronizations[]={59};
 				};
 				class Item23
 				{
@@ -310,6 +414,10 @@ class Mission
 					vehicle="Exile_Unit_GhostPlayer";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="s26";
+					init="null = [this] execVM ""rick_survival\rick_mask_breathe.sqf"";";
+					syncId=23;
+					synchronizations[]={59};
 				};
 				class Item24
 				{
@@ -320,6 +428,10 @@ class Mission
 					vehicle="Exile_Unit_GhostPlayer";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="s27";
+					init="null = [this] execVM ""rick_survival\rick_mask_breathe.sqf"";";
+					syncId=24;
+					synchronizations[]={59};
 				};
 				class Item25
 				{
@@ -330,6 +442,10 @@ class Mission
 					vehicle="Exile_Unit_GhostPlayer";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="s28";
+					init="null = [this] execVM ""rick_survival\rick_mask_breathe.sqf"";";
+					syncId=25;
+					synchronizations[]={59};
 				};
 				class Item26
 				{
@@ -340,6 +456,10 @@ class Mission
 					vehicle="Exile_Unit_GhostPlayer";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="s29";
+					init="null = [this] execVM ""rick_survival\rick_mask_breathe.sqf"";";
+					syncId=26;
+					synchronizations[]={59};
 				};
 				class Item27
 				{
@@ -350,6 +470,10 @@ class Mission
 					vehicle="Exile_Unit_GhostPlayer";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="s30";
+					init="null = [this] execVM ""rick_survival\rick_mask_breathe.sqf"";";
+					syncId=27;
+					synchronizations[]={59};
 				};
 				class Item28
 				{
@@ -360,6 +484,10 @@ class Mission
 					vehicle="Exile_Unit_GhostPlayer";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="s31";
+					init="null = [this] execVM ""rick_survival\rick_mask_breathe.sqf"";";
+					syncId=28;
+					synchronizations[]={59};
 				};
 				class Item29
 				{
@@ -370,6 +498,10 @@ class Mission
 					vehicle="Exile_Unit_GhostPlayer";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="s32";
+					init="null = [this] execVM ""rick_survival\rick_mask_breathe.sqf"";";
+					syncId=29;
+					synchronizations[]={59};
 				};
 				class Item30
 				{
@@ -380,6 +512,10 @@ class Mission
 					vehicle="Exile_Unit_GhostPlayer";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="s42";
+					init="null = [this] execVM ""rick_survival\rick_mask_breathe.sqf"";";
+					syncId=30;
+					synchronizations[]={59};
 				};
 				class Item31
 				{
@@ -390,6 +526,10 @@ class Mission
 					vehicle="Exile_Unit_GhostPlayer";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="s41";
+					init="null = [this] execVM ""rick_survival\rick_mask_breathe.sqf"";";
+					syncId=31;
+					synchronizations[]={59};
 				};
 				class Item32
 				{
@@ -400,6 +540,10 @@ class Mission
 					vehicle="Exile_Unit_GhostPlayer";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="s40";
+					init="null = [this] execVM ""rick_survival\rick_mask_breathe.sqf"";";
+					syncId=32;
+					synchronizations[]={59};
 				};
 				class Item33
 				{
@@ -410,6 +554,10 @@ class Mission
 					vehicle="Exile_Unit_GhostPlayer";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="s39";
+					init="null = [this] execVM ""rick_survival\rick_mask_breathe.sqf"";";
+					syncId=33;
+					synchronizations[]={59};
 				};
 				class Item34
 				{
@@ -420,6 +568,10 @@ class Mission
 					vehicle="Exile_Unit_GhostPlayer";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="s38";
+					init="null = [this] execVM ""rick_survival\rick_mask_breathe.sqf"";";
+					syncId=34;
+					synchronizations[]={59};
 				};
 				class Item35
 				{
@@ -430,6 +582,10 @@ class Mission
 					vehicle="Exile_Unit_GhostPlayer";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="s37";
+					init="null = [this] execVM ""rick_survival\rick_mask_breathe.sqf"";";
+					syncId=35;
+					synchronizations[]={59};
 				};
 				class Item36
 				{
@@ -440,6 +596,10 @@ class Mission
 					vehicle="Exile_Unit_GhostPlayer";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="s36";
+					init="null = [this] execVM ""rick_survival\rick_mask_breathe.sqf"";";
+					syncId=36;
+					synchronizations[]={59};
 				};
 				class Item37
 				{
@@ -450,6 +610,10 @@ class Mission
 					vehicle="Exile_Unit_GhostPlayer";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="s35";
+					init="null = [this] execVM ""rick_survival\rick_mask_breathe.sqf"";";
+					syncId=37;
+					synchronizations[]={59};
 				};
 				class Item38
 				{
@@ -460,6 +624,10 @@ class Mission
 					vehicle="Exile_Unit_GhostPlayer";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="s34";
+					init="null = [this] execVM ""rick_survival\rick_mask_breathe.sqf"";";
+					syncId=38;
+					synchronizations[]={59};
 				};
 				class Item39
 				{
@@ -470,6 +638,10 @@ class Mission
 					vehicle="Exile_Unit_GhostPlayer";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="s33";
+					init="null = [this] execVM ""rick_survival\rick_mask_breathe.sqf"";";
+					syncId=39;
+					synchronizations[]={59};
 				};
 				class Item40
 				{
@@ -480,6 +652,8 @@ class Mission
 					vehicle="Exile_Unit_GhostPlayer";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="s43";
+					init="null = [this] execVM ""rick_survival\rick_mask_breathe.sqf"";";
 				};
 				class Item41
 				{
@@ -490,6 +664,10 @@ class Mission
 					vehicle="Exile_Unit_GhostPlayer";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="s44";
+					init="null = [this] execVM ""rick_survival\rick_mask_breathe.sqf"";";
+					syncId=40;
+					synchronizations[]={59};
 				};
 				class Item42
 				{
@@ -500,6 +678,10 @@ class Mission
 					vehicle="Exile_Unit_GhostPlayer";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="s45";
+					init="null = [this] execVM ""rick_survival\rick_mask_breathe.sqf"";";
+					syncId=41;
+					synchronizations[]={59};
 				};
 				class Item43
 				{
@@ -510,6 +692,10 @@ class Mission
 					vehicle="Exile_Unit_GhostPlayer";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="s46";
+					init="null = [this] execVM ""rick_survival\rick_mask_breathe.sqf"";";
+					syncId=42;
+					synchronizations[]={59};
 				};
 				class Item44
 				{
@@ -520,6 +706,10 @@ class Mission
 					vehicle="Exile_Unit_GhostPlayer";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="s47";
+					init="null = [this] execVM ""rick_survival\rick_mask_breathe.sqf"";";
+					syncId=43;
+					synchronizations[]={59};
 				};
 				class Item45
 				{
@@ -530,6 +720,10 @@ class Mission
 					vehicle="Exile_Unit_GhostPlayer";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="s48";
+					init="null = [this] execVM ""rick_survival\rick_mask_breathe.sqf"";";
+					syncId=44;
+					synchronizations[]={59};
 				};
 				class Item46
 				{
@@ -540,6 +734,10 @@ class Mission
 					vehicle="Exile_Unit_GhostPlayer";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="s49";
+					init="null = [this] execVM ""rick_survival\rick_mask_breathe.sqf"";";
+					syncId=45;
+					synchronizations[]={59};
 				};
 				class Item47
 				{
@@ -550,6 +748,10 @@ class Mission
 					vehicle="Exile_Unit_GhostPlayer";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="s50";
+					init="null = [this] execVM ""rick_survival\rick_mask_breathe.sqf"";";
+					syncId=46;
+					synchronizations[]={59};
 				};
 				class Item48
 				{
@@ -560,6 +762,10 @@ class Mission
 					vehicle="Exile_Unit_GhostPlayer";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="s51";
+					init="null = [this] execVM ""rick_survival\rick_mask_breathe.sqf"";";
+					syncId=47;
+					synchronizations[]={59};
 				};
 				class Item49
 				{
@@ -570,6 +776,10 @@ class Mission
 					vehicle="Exile_Unit_GhostPlayer";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="s52";
+					init="null = [this] execVM ""rick_survival\rick_mask_breathe.sqf"";";
+					syncId=48;
+					synchronizations[]={59};
 				};
 				class Item50
 				{
@@ -580,6 +790,10 @@ class Mission
 					vehicle="Exile_Unit_GhostPlayer";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="s62";
+					init="null = [this] execVM ""rick_survival\rick_mask_breathe.sqf"";";
+					syncId=49;
+					synchronizations[]={59};
 				};
 				class Item51
 				{
@@ -590,6 +804,10 @@ class Mission
 					vehicle="Exile_Unit_GhostPlayer";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="s61";
+					init="null = [this] execVM ""rick_survival\rick_mask_breathe.sqf"";";
+					syncId=50;
+					synchronizations[]={59};
 				};
 				class Item52
 				{
@@ -600,6 +818,10 @@ class Mission
 					vehicle="Exile_Unit_GhostPlayer";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="s60";
+					init="null = [this] execVM ""rick_survival\rick_mask_breathe.sqf"";";
+					syncId=51;
+					synchronizations[]={59};
 				};
 				class Item53
 				{
@@ -610,6 +832,10 @@ class Mission
 					vehicle="Exile_Unit_GhostPlayer";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="s59";
+					init="null = [this] execVM ""rick_survival\rick_mask_breathe.sqf"";";
+					syncId=52;
+					synchronizations[]={59};
 				};
 				class Item54
 				{
@@ -620,6 +846,10 @@ class Mission
 					vehicle="Exile_Unit_GhostPlayer";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="s58";
+					init="null = [this] execVM ""rick_survival\rick_mask_breathe.sqf"";";
+					syncId=53;
+					synchronizations[]={59};
 				};
 				class Item55
 				{
@@ -630,6 +860,10 @@ class Mission
 					vehicle="Exile_Unit_GhostPlayer";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="s57";
+					init="null = [this] execVM ""rick_survival\rick_mask_breathe.sqf"";";
+					syncId=54;
+					synchronizations[]={59};
 				};
 				class Item56
 				{
@@ -640,6 +874,10 @@ class Mission
 					vehicle="Exile_Unit_GhostPlayer";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="s56";
+					init="null = [this] execVM ""rick_survival\rick_mask_breathe.sqf"";";
+					syncId=55;
+					synchronizations[]={59};
 				};
 				class Item57
 				{
@@ -650,6 +888,10 @@ class Mission
 					vehicle="Exile_Unit_GhostPlayer";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="s55";
+					init="null = [this] execVM ""rick_survival\rick_mask_breathe.sqf"";";
+					syncId=56;
+					synchronizations[]={59};
 				};
 				class Item58
 				{
@@ -660,6 +902,10 @@ class Mission
 					vehicle="Exile_Unit_GhostPlayer";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="s54";
+					init="null = [this] execVM ""rick_survival\rick_mask_breathe.sqf"";";
+					syncId=57;
+					synchronizations[]={59};
 				};
 				class Item59
 				{
@@ -670,406 +916,10 @@ class Mission
 					vehicle="Exile_Unit_GhostPlayer";
 					player="PLAY CDG";
 					skill=0.60000002;
-				};
-				class Item60
-				{
-					position[]={220.79539,105.37479,351.00024};
-					special="NONE";
-					id=60;
-					side="GUER";
-					vehicle="Exile_Unit_GhostPlayer";
-					player="PLAY CDG";
-					skill=0.60000002;
-				};
-				class Item61
-				{
-					position[]={218.2368,105.49535,350.47681};
-					special="NONE";
-					id=61;
-					side="GUER";
-					vehicle="Exile_Unit_GhostPlayer";
-					player="PLAY CDG";
-					skill=0.60000002;
-				};
-				class Item62
-				{
-					position[]={216.08446,105.77813,350.70728};
-					special="NONE";
-					id=62;
-					side="GUER";
-					vehicle="Exile_Unit_GhostPlayer";
-					player="PLAY CDG";
-					skill=0.60000002;
-				};
-				class Item63
-				{
-					position[]={213.99071,105.82339,350.82446};
-					special="NONE";
-					id=63;
-					side="GUER";
-					vehicle="Exile_Unit_GhostPlayer";
-					player="PLAY CDG";
-					skill=0.60000002;
-				};
-				class Item64
-				{
-					position[]={211.83836,105.83115,350.94165};
-					special="NONE";
-					id=64;
-					side="GUER";
-					vehicle="Exile_Unit_GhostPlayer";
-					player="PLAY CDG";
-					skill=0.60000002;
-				};
-				class Item65
-				{
-					position[]={210.50047,105.82057,350.94165};
-					special="NONE";
-					id=65;
-					side="GUER";
-					vehicle="Exile_Unit_GhostPlayer";
-					player="PLAY CDG";
-					skill=0.60000002;
-				};
-				class Item66
-				{
-					position[]={208.46532,105.8267,351.23267};
-					special="NONE";
-					id=66;
-					side="GUER";
-					vehicle="Exile_Unit_GhostPlayer";
-					player="PLAY CDG";
-					skill=0.60000002;
-				};
-				class Item67
-				{
-					position[]={207.06883,105.82344,351.23267};
-					special="NONE";
-					id=67;
-					side="GUER";
-					vehicle="Exile_Unit_GhostPlayer";
-					player="PLAY CDG";
-					skill=0.60000002;
-				};
-				class Item68
-				{
-					position[]={204.85985,105.83369,351.3479};
-					special="NONE";
-					id=68;
-					side="GUER";
-					vehicle="Exile_Unit_GhostPlayer";
-					player="PLAY CDG";
-					skill=0.60000002;
-				};
-				class Item69
-				{
-					position[]={202.41649,105.79259,351.40845};
-					special="NONE";
-					id=69;
-					side="GUER";
-					vehicle="Exile_Unit_GhostPlayer";
-					player="PLAY CDG";
-					skill=0.60000002;
-				};
-				class Item70
-				{
-					position[]={221.43602,105.07523,347.57056};
-					special="NONE";
-					id=70;
-					side="GUER";
-					vehicle="Exile_Unit_GhostPlayer";
-					player="PLAY CDG";
-					skill=0.60000002;
-				};
-				class Item71
-				{
-					position[]={219.69188,105.28665,347.68579};
-					special="NONE";
-					id=71;
-					side="GUER";
-					vehicle="Exile_Unit_GhostPlayer";
-					player="PLAY CDG";
-					skill=0.60000002;
-				};
-				class Item72
-				{
-					position[]={217.65477,105.56259,347.57056};
-					special="NONE";
-					id=72;
-					side="GUER";
-					vehicle="Exile_Unit_GhostPlayer";
-					player="PLAY CDG";
-					skill=0.60000002;
-				};
-				class Item73
-				{
-					position[]={215.03758,105.72692,347.74243};
-					special="NONE";
-					id=73;
-					side="GUER";
-					vehicle="Exile_Unit_GhostPlayer";
-					player="PLAY CDG";
-					skill=0.60000002;
-				};
-				class Item74
-				{
-					position[]={213.6411,105.71588,347.74243};
-					special="NONE";
-					id=74;
-					side="GUER";
-					vehicle="Exile_Unit_GhostPlayer";
-					player="PLAY CDG";
-					skill=0.60000002;
-				};
-				class Item75
-				{
-					position[]={211.43211,105.69449,347.86157};
-					special="NONE";
-					id=75;
-					side="GUER";
-					vehicle="Exile_Unit_GhostPlayer";
-					player="PLAY CDG";
-					skill=0.60000002;
-				};
-				class Item76
-				{
-					position[]={209.57079,105.67143,347.74243};
-					special="NONE";
-					id=76;
-					side="GUER";
-					vehicle="Exile_Unit_GhostPlayer";
-					player="PLAY CDG";
-					skill=0.60000002;
-				};
-				class Item77
-				{
-					position[]={207.47508,105.68018,347.80103};
-					special="NONE";
-					id=77;
-					side="GUER";
-					vehicle="Exile_Unit_GhostPlayer";
-					player="PLAY CDG";
-					skill=0.60000002;
-				};
-				class Item78
-				{
-					position[]={205.90477,105.68528,347.80103};
-					special="NONE";
-					id=78;
-					side="GUER";
-					vehicle="Exile_Unit_GhostPlayer";
-					player="PLAY CDG";
-					skill=0.60000002;
-				};
-				class Item79
-				{
-					position[]={203.9868,105.69357,347.86157};
-					special="NONE";
-					id=79;
-					side="GUER";
-					vehicle="Exile_Unit_GhostPlayer";
-					player="PLAY CDG";
-					skill=0.60000002;
-				};
-				class Item80
-				{
-					position[]={220.73875,105.39504,345.59009};
-					special="NONE";
-					id=80;
-					side="GUER";
-					vehicle="Exile_Unit_GhostPlayer";
-					player="PLAY CDG";
-					skill=0.60000002;
-				};
-				class Item81
-				{
-					position[]={218.52586,105.65327,345.82251};
-					special="NONE";
-					id=81;
-					side="GUER";
-					vehicle="Exile_Unit_GhostPlayer";
-					player="PLAY CDG";
-					skill=0.60000002;
-				};
-				class Item82
-				{
-					position[]={216.5493,105.77087,345.8811};
-					special="NONE";
-					id=82;
-					side="GUER";
-					vehicle="Exile_Unit_GhostPlayer";
-					player="PLAY CDG";
-					skill=0.60000002;
-				};
-				class Item83
-				{
-					position[]={213.75829,105.78027,345.82251};
-					special="NONE";
-					id=83;
-					side="GUER";
-					vehicle="Exile_Unit_GhostPlayer";
-					player="PLAY CDG";
-					skill=0.60000002;
-				};
-				class Item84
-				{
-					position[]={211.9536,105.75117,345.82251};
-					special="NONE";
-					id=84;
-					side="GUER";
-					vehicle="Exile_Unit_GhostPlayer";
-					player="PLAY CDG";
-					skill=0.60000002;
-				};
-				class Item85
-				{
-					position[]={210.03563,105.61277,345.93774};
-					special="NONE";
-					id=85;
-					side="GUER";
-					vehicle="Exile_Unit_GhostPlayer";
-					player="PLAY CDG";
-					skill=0.60000002;
-				};
-				class Item86
-				{
-					position[]={208.23094,105.614,345.8811};
-					special="NONE";
-					id=86;
-					side="GUER";
-					vehicle="Exile_Unit_GhostPlayer";
-					player="PLAY CDG";
-					skill=0.60000002;
-				};
-				class Item87
-				{
-					position[]={206.60399,105.61733,345.82251};
-					special="NONE";
-					id=87;
-					side="GUER";
-					vehicle="Exile_Unit_GhostPlayer";
-					player="PLAY CDG";
-					skill=0.60000002;
-				};
-				class Item88
-				{
-					position[]={204.10204,105.63891,345.99829};
-					special="NONE";
-					id=88;
-					side="GUER";
-					vehicle="Exile_Unit_GhostPlayer";
-					player="PLAY CDG";
-					skill=0.60000002;
-				};
-				class Item89
-				{
-					position[]={202.76414,105.59708,345.99829};
-					special="NONE";
-					id=89;
-					side="GUER";
-					vehicle="Exile_Unit_GhostPlayer";
-					player="PLAY CDG";
-					skill=0.60000002;
-				};
-				class Item90
-				{
-					position[]={220.38719,105.66984,343.61353};
-					special="NONE";
-					id=90;
-					side="GUER";
-					vehicle="Exile_Unit_GhostPlayer";
-					player="PLAY CDG";
-					skill=0.60000002;
-				};
-				class Item91
-				{
-					position[]={218.41063,105.76244,343.55493};
-					special="NONE";
-					id=91;
-					side="GUER";
-					vehicle="Exile_Unit_GhostPlayer";
-					player="PLAY CDG";
-					skill=0.60000002;
-				};
-				class Item92
-				{
-					position[]={216.37547,105.8576,343.49829};
-					special="NONE";
-					id=92;
-					side="GUER";
-					vehicle="Exile_Unit_GhostPlayer";
-					player="PLAY CDG";
-					skill=0.60000002;
-				};
-				class Item93
-				{
-					position[]={213.93407,105.82088,343.49829};
-					special="NONE";
-					id=93;
-					side="GUER";
-					vehicle="Exile_Unit_GhostPlayer";
-					player="PLAY CDG";
-					skill=0.60000002;
-				};
-				class Item94
-				{
-					position[]={211.60594,105.65206,343.61353};
-					special="NONE";
-					id=94;
-					side="GUER";
-					vehicle="Exile_Unit_GhostPlayer";
-					player="PLAY CDG";
-					skill=0.60000002;
-				};
-				class Item95
-				{
-					position[]={209.51219,105.53456,343.61353};
-					special="NONE";
-					id=95;
-					side="GUER";
-					vehicle="Exile_Unit_GhostPlayer";
-					player="PLAY CDG";
-					skill=0.60000002;
-				};
-				class Item96
-				{
-					position[]={207.24461,105.54821,343.67212};
-					special="NONE";
-					id=96;
-					side="GUER";
-					vehicle="Exile_Unit_GhostPlayer";
-					player="PLAY CDG";
-					skill=0.60000002;
-				};
-				class Item97
-				{
-					position[]={204.45164,105.5719,343.78931};
-					special="NONE";
-					id=97;
-					side="GUER";
-					vehicle="Exile_Unit_GhostPlayer";
-					player="PLAY CDG";
-					skill=0.60000002;
-				};
-				class Item98
-				{
-					position[]={201.77586,105.50854,343.90454};
-					special="NONE";
-					id=98;
-					side="GUER";
-					vehicle="Exile_Unit_GhostPlayer";
-					player="PLAY CDG";
-					skill=0.60000002;
-				};
-				class Item99
-				{
-					position[]={222.07469,105.46867,343.55493};
-					special="NONE";
-					id=99;
-					side="GUER";
-					vehicle="Exile_Unit_GhostPlayer";
-					player="PLAY CDG";
-					skill=0.60000002;
+					text="s53";
+					init="null = [this] execVM ""rick_survival\rick_mask_breathe.sqf"";";
+					syncId=58;
+					synchronizations[]={59};
 				};
 			};
 		};
@@ -1081,8 +931,8 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={6073.8643,246.65469,4234.6655};
-					id=100;
+					position[]={12555.565,24.976168,4106.8896};
+					id=60;
 					side="LOGIC";
 					vehicle="Logic";
 					leader=1;
@@ -1099,59 +949,13 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={12478.871,117.19979,3605.938};
-					class args
-					{
-						items=4;
-						class Item0
-						{
-							value="0.3";
-							parentCls="RyanZM_ModuleZombieDeletion";
-							typeName="Deletion";
-						};
-						class Item1
-						{
-							value="700";
-							parentCls="RyanZM_ModuleZombieDeletion";
-							typeName="DeletionRadius";
-						};
-						class Item2
-						{
-							value="0.3";
-							parentCls="RyanZM_ModuleZombieDeletion";
-							typeName="DeletionDemons";
-						};
-						class Item3
-						{
-							value="700";
-							parentCls="RyanZM_ModuleZombieDeletion";
-							typeName="DeletionRadiusDemons";
-						};
-					};
-					id=101;
-					side="LOGIC";
-					vehicle="RyanZM_ModuleZombieDeletion";
-					leader=1;
-					lock="UNLOCKED";
-					skill=0.60000002;
-				};
-			};
-		};
-		class Item3
-		{
-			side="LOGIC";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
 					position[]={12528.817,112.41336,3222.999};
 					class args
 					{
 						items=3;
 						class Item0
 						{
-							value="0.3";
+							value="0.7";
 							parentCls="RyanZM_ModuleInfection";
 							typeName="Infection";
 						};
@@ -1168,9 +972,43 @@ class Mission
 							typeName="Uniform";
 						};
 					};
-					id=102;
+					id=61;
 					side="LOGIC";
 					vehicle="RyanZM_ModuleInfection";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item3
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={12592.781,125.15017,2969.6096};
+					class args
+					{
+						items=2;
+						class Item0
+						{
+							value="0.9";
+							parentCls="RyanZM_ModuleZombieHealth";
+							typeName="ZombieMaxHealth";
+						};
+						class Item1
+						{
+							value="0.7";
+							parentCls="RyanZM_ModuleZombieHealth";
+							typeName="DemonMaxHealth";
+						};
+					};
+					id=62;
+					side="LOGIC";
+					vehicle="RyanZM_ModuleZombieHealth";
 					leader=1;
 					lock="UNLOCKED";
 					skill=0.60000002;
@@ -1185,28 +1023,11 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={12528.819,124.53345,2823.4102};
-					class args
-					{
-						items=2;
-						class Item0
-						{
-							value="0.9";
-							parentCls="RyanZM_ModuleZombieHealth";
-							typeName="ZombieMaxHealth";
-						};
-						class Item1
-						{
-							value="0.9";
-							parentCls="RyanZM_ModuleZombieHealth";
-							typeName="DemonMaxHealth";
-						};
-					};
-					id=103;
+					position[]={10111.681,0.2852363,5260.5566};
+					id=63;
 					side="LOGIC";
-					vehicle="RyanZM_ModuleZombieHealth";
+					vehicle="Ryanzombieslogicdelete";
 					leader=1;
-					lock="UNLOCKED";
 					skill=0.60000002;
 				};
 			};
@@ -1219,70 +1040,11 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={12512.167,56.346889,2457.1216};
-					class args
-					{
-						items=9;
-						class Item0
-						{
-							value="20";
-							parentCls="RyanZM_ModuleSpawnerDemon";
-							typeName="Amount";
-						};
-						class Item1
-						{
-							value="40";
-							parentCls="RyanZM_ModuleSpawnerDemon";
-							typeName="TotalAmount";
-						};
-						class Item2
-						{
-							value="5";
-							parentCls="RyanZM_ModuleSpawnerDemon";
-							typeName="Start";
-						};
-						class Item3
-						{
-							value="120";
-							parentCls="RyanZM_ModuleSpawnerDemon";
-							typeName="Frequency";
-						};
-						class Item4
-						{
-							value="2.0";
-							parentCls="RyanZM_ModuleSpawnerDemon";
-							typeName="Delay";
-						};
-						class Item5
-						{
-							value="0";
-							parentCls="RyanZM_ModuleSpawnerDemon";
-							typeName="Density";
-						};
-						class Item6
-						{
-							value="0.3";
-							parentCls="RyanZM_ModuleSpawnerDemon";
-							typeName="ActivationDemon";
-						};
-						class Item7
-						{
-							value="500";
-							parentCls="RyanZM_ModuleSpawnerDemon";
-							typeName="ActivationRadiusDemon";
-						};
-						class Item8
-						{
-							value="7";
-							parentCls="RyanZM_ModuleSpawnerDemon";
-							typeName="HordeSize";
-						};
-					};
-					id=104;
+					position[]={10286.958,0.16528836,5260.5571};
+					id=64;
 					side="LOGIC";
-					vehicle="RyanZM_ModuleSpawnerDemon";
+					vehicle="Ryanzombieslogichard";
 					leader=1;
-					lock="UNLOCKED";
 					skill=0.60000002;
 				};
 			};
@@ -1295,70 +1057,11 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={12499.021,120.34357,2227.3945};
-					class args
-					{
-						items=9;
-						class Item0
-						{
-							value="60";
-							parentCls="RyanZM_ModuleSpawner";
-							typeName="Amount";
-						};
-						class Item1
-						{
-							value="80";
-							parentCls="RyanZM_ModuleSpawner";
-							typeName="TotalAmount";
-						};
-						class Item2
-						{
-							value="5";
-							parentCls="RyanZM_ModuleSpawner";
-							typeName="Start";
-						};
-						class Item3
-						{
-							value="120";
-							parentCls="RyanZM_ModuleSpawner";
-							typeName="Frequency";
-						};
-						class Item4
-						{
-							value="1.0";
-							parentCls="RyanZM_ModuleSpawner";
-							typeName="Delay";
-						};
-						class Item5
-						{
-							value="0";
-							parentCls="RyanZM_ModuleSpawner";
-							typeName="Density";
-						};
-						class Item6
-						{
-							value="0.3";
-							parentCls="RyanZM_ModuleSpawner";
-							typeName="Activation";
-						};
-						class Item7
-						{
-							value="500";
-							parentCls="RyanZM_ModuleSpawner";
-							typeName="ActivationRadius";
-						};
-						class Item8
-						{
-							value="14";
-							parentCls="RyanZM_ModuleSpawner";
-							typeName="HordeSize";
-						};
-					};
-					id=105;
+					position[]={10467.891,-0.00073951727,5237.9399};
+					id=65;
 					side="LOGIC";
-					vehicle="RyanZM_ModuleSpawner";
+					vehicle="Ryanzombieslogicthrow";
 					leader=1;
-					lock="UNLOCKED";
 					skill=0.60000002;
 				};
 			};
@@ -1371,10 +1074,10 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={10111.681,-36.174889,5260.5566};
-					id=106;
+					position[]={10643.166,-34.089039,5181.3984};
+					id=66;
 					side="LOGIC";
-					vehicle="Ryanzombieslogicdelete";
+					vehicle="Ryanzombieslogicthrowtank";
 					leader=1;
 					skill=0.60000002;
 				};
@@ -1388,10 +1091,10 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={10286.958,-5.5386685e-005,5260.5571};
-					id=107;
+					position[]={11005.028,-17.331224,5147.4746};
+					id=67;
 					side="LOGIC";
-					vehicle="Ryanzombieslogichard";
+					vehicle="ryanzombiesjump";
 					leader=1;
 					skill=0.60000002;
 				};
@@ -1405,12 +1108,49 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={10467.891,-0.00073951727,5237.9399};
-					id=108;
+					position[]={199.76723,105.88857,356.24341};
+					class args
+					{
+						items=5;
+						class Item0
+						{
+							value="0";
+							parentCls="rickb_a3itemsModule";
+							typeName="Units";
+						};
+						class Item1
+						{
+							value="1";
+							parentCls="rickb_a3itemsModule";
+							typeName="htactivate";
+						};
+						class Item2
+						{
+							value="1";
+							parentCls="rickb_a3itemsModule";
+							typeName="thirstrate";
+						};
+						class Item3
+						{
+							value="1";
+							parentCls="rickb_a3itemsModule";
+							typeName="hungerrate";
+						};
+						class Item4
+						{
+							value="1";
+							parentCls="rickb_a3itemsModule";
+							typeName="jumpactivate";
+						};
+					};
+					id=68;
 					side="LOGIC";
-					vehicle="Ryanzombieslogicthrow";
+					vehicle="rickb_a3itemsModule";
 					leader=1;
+					lock="UNLOCKED";
 					skill=0.60000002;
+					syncId=59;
+					synchronizations[]={9,19,29,39,48,58,57,47,38,28,18,8,7,17,27,37,46,56,55,45,36,26,16,6,5,15,25,35,44,54,53,43,34,24,14,4,3,13,23,33,52,42,32,22,12,2,1,11,0,21,10,20,31,41,51,30,40,50,49};
 				};
 			};
 		};
@@ -1422,11 +1162,40 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={10643.166,-34.089039,5181.3984};
-					id=109;
+					position[]={12848.77,118.43121,1925.8901};
+					class args
+					{
+						items=4;
+						class Item0
+						{
+							value="#adminLogged";
+							parentCls="ModuleCurator_F";
+							typeName="Owner";
+						};
+						class Item1
+						{
+							value="";
+							parentCls="ModuleCurator_F";
+							typeName="Name";
+						};
+						class Item2
+						{
+							value="2";
+							parentCls="ModuleCurator_F";
+							typeName="Addons";
+						};
+						class Item3
+						{
+							value="0";
+							parentCls="ModuleCurator_F";
+							typeName="Forced";
+						};
+					};
+					id=69;
 					side="LOGIC";
-					vehicle="Ryanzombieslogicthrowtank";
+					vehicle="ModuleCurator_F";
 					leader=1;
+					lock="UNLOCKED";
 					skill=0.60000002;
 				};
 			};
@@ -1439,12 +1208,15 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={10801.48,-27.963963,5147.4746};
-					id=110;
+					position[]={12905.529,-10.687792,4876.6777};
+					id=70;
 					side="LOGIC";
-					vehicle="Ryanzombieslogicroam";
+					vehicle="HeadlessClient_F";
+					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
+					text="HC2";
+					description="HC2";
 				};
 			};
 		};
@@ -1456,12 +1228,15 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={11005.028,-17.331224,5147.4746};
-					id=111;
+					position[]={12912.526,0.01553686,4778.7153};
+					id=71;
 					side="LOGIC";
-					vehicle="ryanzombiesjump";
+					vehicle="HeadlessClient_F";
+					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
+					text="HC";
+					description="HC1";
 				};
 			};
 		};
@@ -1473,109 +1248,27 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={8701.6826,14.869229,5478.1353};
-					id=112;
+					position[]={12950.715,14.124742,4957.6973};
+					id=72;
 					side="LOGIC";
-					vehicle="Ryanzombieslogicspawnmixedopfor";
+					vehicle="HeadlessClient_F";
+					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
-				};
-			};
-		};
-		class Item14
-		{
-			side="LOGIC";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={9584.5459,19.978205,5622.2051};
-					id=113;
-					side="LOGIC";
-					vehicle="Ryanzombieslogicspawnmixedopfor";
-					leader=1;
-					skill=0.60000002;
-				};
-			};
-		};
-		class Item15
-		{
-			side="LOGIC";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={8081.9043,40.779236,5864.5625};
-					id=114;
-					side="LOGIC";
-					vehicle="Ryanzombieslogicspawnmixedopfor";
-					leader=1;
-					skill=0.60000002;
-				};
-			};
-		};
-		class Item16
-		{
-			side="LOGIC";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={10023.191,8.0467463,5631.5557};
-					id=115;
-					side="LOGIC";
-					vehicle="Ryanzombieslogicspawndemonsopfor";
-					leader=1;
-					skill=0.60000002;
-				};
-			};
-		};
-		class Item17
-		{
-			side="LOGIC";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={8882.5498,27.572495,5692.1523};
-					id=116;
-					side="LOGIC";
-					vehicle="Ryanzombieslogicspawnmixedopfor";
-					leader=1;
-					skill=0.60000002;
-				};
-			};
-		};
-		class Item18
-		{
-			side="LOGIC";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={8427.9014,18.937939,5724.9072};
-					id=117;
-					side="LOGIC";
-					vehicle="Ryanzombieslogicspawnspidersopfor";
-					leader=1;
-					skill=0.60000002;
+					text="HC3";
+					description="HC1";
 				};
 			};
 		};
 	};
 	class Vehicles
 	{
-		items=4;
+		items=10;
 		class Item0
 		{
 			position[]={8824.4619,0.017008401,4981.9536};
 			azimut=163.98312;
-			id=118;
+			id=73;
 			side="EMPTY";
 			vehicle="Exile_Boat_RubberDuck_Digital";
 			skill=0.60000002;
@@ -1584,7 +1277,7 @@ class Mission
 		{
 			position[]={10651.068,-0.013568859,5269.3423};
 			azimut=248.20403;
-			id=119;
+			id=74;
 			side="EMPTY";
 			vehicle="Exile_Boat_RubberDuck_Digital";
 			skill=0.60000002;
@@ -1593,7 +1286,7 @@ class Mission
 		{
 			position[]={5768.3516,-0.025148392,5473.9546};
 			azimut=163.983;
-			id=120;
+			id=75;
 			side="EMPTY";
 			vehicle="Exile_Boat_RubberDuck_Digital";
 			skill=0.60000002;
@@ -1602,15 +1295,75 @@ class Mission
 		{
 			position[]={12145.411,-0.019536749,4939.9263};
 			azimut=163.98312;
-			id=121;
+			id=76;
 			side="EMPTY";
 			vehicle="Exile_Boat_RubberDuck_Digital";
 			skill=0.60000002;
 		};
+		class Item4
+		{
+			position[]={11963.726,13.882414,7976.4946};
+			azimut=-42.826237;
+			id=77;
+			side="EMPTY";
+			vehicle="Exile_Bike_MountainBike";
+			skill=0.60000002;
+		};
+		class Item5
+		{
+			position[]={7155.4214,204.78706,9340.2012};
+			azimut=-226.5499;
+			id=78;
+			side="EMPTY";
+			vehicle="Exile_Bike_MountainBike";
+			skill=0.60000002;
+		};
+		class Item6
+		{
+			position[]={1922.5618,165.83466,7818.2114};
+			azimut=-109.35478;
+			id=79;
+			side="EMPTY";
+			vehicle="Exile_Bike_MountainBike";
+			skill=0.60000002;
+		};
+		class Item7
+		{
+			position[]={9493.5234,24.334078,5679.8564};
+			azimut=-146.341;
+			id=80;
+			side="EMPTY";
+			vehicle="Land_HelipadEmpty_F";
+			leader=1;
+			skill=0.60000002;
+			init="null = [this, 520, 200, 15] execVM ""rick_survival\rick_contamination.sqf"";";
+		};
+		class Item8
+		{
+			position[]={10546.312,9.9513988,5693.7026};
+			azimut=-146.341;
+			id=81;
+			side="EMPTY";
+			vehicle="Land_HelipadEmpty_F";
+			leader=1;
+			skill=0.60000002;
+			init="null = [this, 650, 200, 15] execVM ""rick_survival\rick_contamination.sqf"";";
+		};
+		class Item9
+		{
+			position[]={8551.9932,14.326825,5736.4297};
+			azimut=-146.341;
+			id=82;
+			side="EMPTY";
+			vehicle="Land_HelipadEmpty_F";
+			leader=1;
+			skill=0.60000002;
+			init="null = [this, 600, 200, 15] execVM ""rick_survival\rick_contamination.sqf"";";
+		};
 	};
 	class Markers
 	{
-		items=29;
+		items=70;
 		class Item0
 		{
 			position[]={7149.6777,205.41414,9346.6631};
@@ -1661,60 +1414,6 @@ class Mission
 		};
 		class Item6
 		{
-			position[]={6644.6919,258.69189,3903.2122};
-			name="EOSinf_1";
-			markerType="ELLIPSE";
-			type="Empty";
-			a=250;
-			b=250;
-		};
-		class Item7
-		{
-			position[]={1170.8199,150.07253,10269.096};
-			name="EOSinf_2";
-			markerType="ELLIPSE";
-			type="Empty";
-			a=250;
-			b=250;
-		};
-		class Item8
-		{
-			position[]={7643.9961,53.016731,10161.214};
-			name="EOSinf_3";
-			markerType="ELLIPSE";
-			type="Empty";
-			a=250;
-			b=250;
-		};
-		class Item9
-		{
-			position[]={8741.5234,17.360147,5435.769};
-			name="EOSinf_4";
-			markerType="ELLIPSE";
-			type="Empty";
-			a=250;
-			b=250;
-		};
-		class Item10
-		{
-			position[]={5074.0293,163.60393,4669.3911};
-			name="EOSinf_5";
-			markerType="ELLIPSE";
-			type="Empty";
-			a=250;
-			b=250;
-		};
-		class Item11
-		{
-			position[]={4882.6636,109.17167,5128.9956};
-			name="EOSinf_6";
-			markerType="ELLIPSE";
-			type="Empty";
-			a=100;
-			b=100;
-		};
-		class Item12
-		{
 			position[]={3982.6892,150.25922,9277.5684};
 			name="TraderCityMarker_2";
 			text="Mafia Trader City";
@@ -1726,165 +1425,445 @@ class Mission
 			b=150;
 			drawBorder=1;
 		};
-		class Item13
+		class Item7
 		{
-			position[]={1908.8053,165.23576,7792.4478};
-			name="EOSrapt_1";
+			position[]={3161.5825,306.35431,2095.6047};
+			name="Spawn1";
 			markerType="ELLIPSE";
 			type="Empty";
-			colorName="ColorGreen";
-			a=250;
-			b=250;
+			alpha=0;
+			a=80;
+			b=80;
+		};
+		class Item8
+		{
+			position[]={11869.938,13.648245,7928.0449};
+			name="Spawn2";
+			markerType="ELLIPSE";
+			type="Empty";
+			alpha=0;
+			a=120;
+			b=120;
+		};
+		class Item9
+		{
+			position[]={7160.0762,201.47852,9322.8789};
+			name="Spawn3";
+			markerType="ELLIPSE";
+			type="Empty";
+			alpha=0;
+			a=120;
+			b=120;
+		};
+		class Item10
+		{
+			position[]={1967.4471,161.70937,7801.4214};
+			name="Spawn4";
+			markerType="ELLIPSE";
+			type="Empty";
+			alpha=0;
+			a=120;
+			b=120;
+		};
+		class Item11
+		{
+			position[]={8722.1738,199.85638,2210.0552};
+			name="Spawn5";
+			markerType="ELLIPSE";
+			type="Empty";
+			alpha=0;
+			a=120;
+			b=120;
+		};
+		class Item12
+		{
+			position[]={9601.5,20.671108,5640.3838};
+			name="zombiezone";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorRed";
+			fillName="FDiagonal";
+			a=2000;
+			b=450;
+			angle=-177.41663;
+		};
+		class Item13
+		{
+			position[]={8404.6504,28.965914,5954.2168};
+			name="zzone";
+			text="INFECTED ZONE!!!";
+			type="mil_warning";
+			colorName="ColorRed";
 		};
 		class Item14
 		{
-			position[]={7105.8022,200.73943,9278.0039};
-			name="EOSrapt_3";
-			markerType="ELLIPSE";
-			type="Empty";
-			colorName="ColorGreen";
-			a=250;
-			b=250;
+			position[]={9144.8438,9.3752747,5317.6074};
+			name="zzone_1";
+			text="INFECTED ZONE!!!";
+			type="mil_warning";
+			colorName="ColorRed";
 		};
 		class Item15
 		{
-			position[]={6754.6338,82.147682,5369.0771};
-			name="EOSrapt_4";
-			markerType="ELLIPSE";
-			type="Empty";
-			colorName="ColorGreen";
-			a=250;
-			b=250;
+			position[]={10049.885,11.876002,5869.7139};
+			name="zzone_2";
+			text="INFECTED ZONE!!!";
+			type="mil_warning";
+			colorName="ColorRed";
 		};
 		class Item16
 		{
-			position[]={11777.114,18.15513,7937.125};
-			name="EOSrapt_5";
-			markerType="ELLIPSE";
-			type="Empty";
-			colorName="ColorGreen";
-			a=250;
-			b=250;
+			position[]={10823.685,-2.3255805e-005,5311.834};
+			name="zzone_3";
+			text="INFECTED ZONE!!!";
+			type="mil_warning";
+			colorName="ColorRed";
 		};
 		class Item17
 		{
-			position[]={10841.939,0,5504.4756};
-			name="EOSrapt_6";
+			position[]={8704.1016,200.81841,2210.6316};
+			name="Spawn1_1";
 			markerType="ELLIPSE";
 			type="Empty";
-			colorName="ColorGreen";
-			a=250;
-			b=250;
+			alpha=0;
+			a=80;
+			b=80;
 		};
 		class Item18
 		{
-			position[]={3669.7542,165.64618,9854.8779};
-			name="EOSrapt_2";
+			position[]={11886.643,13.823873,7953.9268};
+			name="Spawn1_2";
 			markerType="ELLIPSE";
 			type="Empty";
-			colorName="ColorGreen";
-			a=250;
-			b=250;
+			alpha=0;
+			a=80;
+			b=80;
 		};
 		class Item19
 		{
-			position[]={2631.8362,143.88939,4545.2686};
-			name="EOSrapt_7";
+			position[]={7138.3076,198.30521,9283.3613};
+			name="Spawn2_1";
 			markerType="ELLIPSE";
 			type="Empty";
-			colorName="ColorGreen";
-			a=250;
-			b=250;
+			alpha=0;
+			a=120;
+			b=120;
 		};
 		class Item20
 		{
-			position[]={3583.3909,185.22353,6387.5229};
-			name="EOSraptPack_6";
+			position[]={7155.0117,200.06873,9309.2432};
+			name="Spawn1_2_1";
 			markerType="ELLIPSE";
 			type="Empty";
-			colorName="ColorGreen";
-			a=1500;
-			b=1500;
+			alpha=0;
+			a=80;
+			b=80;
 		};
 		class Item21
 		{
-			position[]={4750.6631,119.26807,8082.7803};
-			name="EOSrapt_9";
+			position[]={1947.2474,162.32675,7785.5254};
+			name="Spawn3_1";
 			markerType="ELLIPSE";
 			type="Empty";
-			colorName="ColorGreen";
-			a=250;
-			b=250;
+			alpha=0;
+			a=120;
+			b=120;
 		};
 		class Item22
 		{
-			position[]={9078.6875,165.66119,7920.5288};
-			name="EOSrapt_10";
+			position[]={1925.4789,166.22035,7746.0078};
+			name="Spawn2_1_1";
 			markerType="ELLIPSE";
 			type="Empty";
-			colorName="ColorGreen";
-			a=250;
-			b=250;
+			alpha=0;
+			a=120;
+			b=120;
 		};
 		class Item23
 		{
-			position[]={3699.7109,243.07202,2252.6252};
-			name="EOSraptPack_1";
+			position[]={1942.183,162.16545,7771.8896};
+			name="Spawn1_2_1_1";
 			markerType="ELLIPSE";
 			type="Empty";
-			colorName="ColorGreen";
-			a=2000;
-			b=2000;
+			alpha=0;
+			a=80;
+			b=80;
 		};
 		class Item24
 		{
-			position[]={8695.9229,199.77101,2454.3694};
-			name="EOSraptPack_2";
-			markerType="ELLIPSE";
+			position[]={8267.8486,30.787064,5944.1416};
+			name="z16";
 			type="Empty";
-			colorName="ColorGreen";
-			a=1500;
-			b=1500;
 		};
 		class Item25
 		{
-			position[]={7231.1807,167.99757,7491.3452};
-			name="EOSraptPack_3";
-			markerType="ELLIPSE";
+			position[]={2723.0281,141.15663,4592.8184};
+			name="z34";
 			type="Empty";
-			colorName="ColorGreen";
-			a=1500;
-			b=1500;
 		};
 		class Item26
 		{
-			position[]={10147.832,62.263962,10581.324};
-			name="EOSraptPack_4";
-			markerType="ELLIPSE";
+			position[]={5098.8613,163.83754,4687.9414};
+			name="z35";
 			type="Empty";
-			colorName="ColorGreen";
-			a=1500;
-			b=1500;
 		};
 		class Item27
 		{
-			position[]={1582.6138,201.9041,10692.794};
-			name="EOSraptPack_5";
-			markerType="ELLIPSE";
+			position[]={4898.9966,113.01381,5121.6431};
+			name="z36";
 			type="Empty";
-			colorName="ColorGreen";
-			a=1500;
-			b=1500;
 		};
 		class Item28
 		{
-			position[]={8281.7324,21.372147,5752.0825};
-			name="EOSrapt_8";
-			markerType="ELLIPSE";
+			position[]={6645.2324,258.69263,3931.3206};
+			name="z37";
 			type="Empty";
-			colorName="ColorGreen";
-			a=250;
-			b=250;
+		};
+		class Item29
+		{
+			position[]={3133.3645,122.65097,6050.7393};
+			name="z38";
+			type="Empty";
+		};
+		class Item30
+		{
+			position[]={2712.0356,121.50964,6124.6533};
+			name="z39";
+			type="Empty";
+		};
+		class Item31
+		{
+			position[]={3494.4233,157.91246,6899.2075};
+			name="z40";
+			type="Empty";
+		};
+		class Item32
+		{
+			position[]={6286.6992,49.864338,6198.8662};
+			name="z41";
+			type="Empty";
+		};
+		class Item33
+		{
+			position[]={9025.5293,171.00275,7892.5225};
+			name="z42";
+			type="Empty";
+		};
+		class Item34
+		{
+			position[]={10148.811,66.611954,7922.0986};
+			name="z43";
+			type="Empty";
+		};
+		class Item35
+		{
+			position[]={4804.5151,128.80602,8073.5942};
+			name="z44";
+			type="Empty";
+		};
+		class Item36
+		{
+			position[]={1176.6919,150.07253,10273.57};
+			name="z45";
+			type="Empty";
+		};
+		class Item37
+		{
+			position[]={10073.527,9.3174801,9887.083};
+			name="z46";
+			type="Empty";
+		};
+		class Item38
+		{
+			position[]={7640.0557,53.080208,10167.78};
+			name="z47";
+			type="Empty";
+		};
+		class Item39
+		{
+			position[]={9117.0654,47.651272,5917.7656};
+			name="z1";
+			type="Empty";
+		};
+		class Item40
+		{
+			position[]={8043.9209,29.66321,5838.4756};
+			name="z2";
+			type="Empty";
+		};
+		class Item41
+		{
+			position[]={8203.29,24.68786,5659.9058};
+			name="z3";
+			type="Empty";
+		};
+		class Item42
+		{
+			position[]={8009.5596,22.413265,5544.3047};
+			name="z4";
+			type="Empty";
+		};
+		class Item43
+		{
+			position[]={8376.0996,20.919407,5446.7744};
+			name="z5";
+			type="Empty";
+		};
+		class Item44
+		{
+			position[]={8556.9414,24.199585,5954.0688};
+			name="z6";
+			type="Empty";
+		};
+		class Item45
+		{
+			position[]={8787.9863,32.98011,5941.4458};
+			name="z7";
+			type="Empty";
+		};
+		class Item46
+		{
+			position[]={8733.2412,20.282545,5700.2275};
+			name="z8";
+			type="Empty";
+		};
+		class Item47
+		{
+			position[]={8934.8525,31.433767,5694.4688};
+			name="z9";
+			type="Empty";
+		};
+		class Item48
+		{
+			position[]={9134.5439,33.018177,5682.9482};
+			name="z10";
+			type="Empty";
+		};
+		class Item49
+		{
+			position[]={9353.4355,27.576057,5673.3477};
+			name="z12";
+			type="Empty";
+		};
+		class Item50
+		{
+			position[]={8599.2832,15.376284,5443.5132};
+			name="z13";
+			type="Empty";
+		};
+		class Item51
+		{
+			position[]={8857.4746,22.16811,5470.2651};
+			name="z14";
+			type="Empty";
+		};
+		class Item52
+		{
+			position[]={9053.9004,25.40534,5500.541};
+			name="z15";
+			type="Empty";
+		};
+		class Item53
+		{
+			position[]={9489.8799,12.362303,5490.9419};
+			name="z17";
+			type="Empty";
+		};
+		class Item54
+		{
+			position[]={9642.9023,24.412199,5729.5444};
+			name="z18";
+			type="Empty";
+		};
+		class Item55
+		{
+			position[]={8459.3086,16.375351,5752.1313};
+			name="z19";
+			type="Empty";
+		};
+		class Item56
+		{
+			position[]={9983.2334,9.5353746,5577.3467};
+			name="z20";
+			type="Empty";
+		};
+		class Item57
+		{
+			position[]={9847.7305,19.266186,5809.2866};
+			name="z21";
+			type="Empty";
+		};
+		class Item58
+		{
+			position[]={10121.483,15.429463,5744.3975};
+			name="z22";
+			type="Empty";
+		};
+		class Item59
+		{
+			position[]={10236.689,2.1501741,5500.5449};
+			name="z23";
+			type="Empty";
+		};
+		class Item60
+		{
+			position[]={10384.538,13.54278,5700.2354};
+			name="z24";
+			type="Empty";
+		};
+		class Item61
+		{
+			position[]={10438.301,2.0150609,5462.1421};
+			name="z25";
+			type="Empty";
+		};
+		class Item62
+		{
+			position[]={10799.28,2.6879578,5416.0605};
+			name="z26";
+			type="Empty";
+		};
+		class Item63
+		{
+			position[]={10591.908,0.10291916,5341.1768};
+			name="z27";
+			type="Empty";
+		};
+		class Item64
+		{
+			position[]={11125.697,-0.95232165,5387.2598};
+			name="z28";
+			type="Empty";
+		};
+		class Item65
+		{
+			position[]={10798.491,5.975997,5684.4375};
+			name="z29";
+			type="Empty";
+		};
+		class Item66
+		{
+			position[]={9512.3145,40.401299,5930.3711};
+			name="z30";
+			type="Empty";
+		};
+		class Item67
+		{
+			position[]={10082.717,14.597445,5939.2671};
+			name="z31";
+			type="Empty";
+		};
+		class Item68
+		{
+			position[]={9245.2236,21.254177,5488.2993};
+			name="z32";
+			type="Empty";
+		};
+		class Item69
+		{
+			position[]={8423.6777,21.230394,5541.5005};
+			name="z33";
+			type="Empty";
 		};
 	};
 	class Sensors

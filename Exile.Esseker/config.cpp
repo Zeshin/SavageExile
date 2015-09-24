@@ -1252,6 +1252,11 @@ class CfgExileArsenal
 	class Exile_Item_CookingPot						{ quality = 2; price = 80; };
 	class Exile_Item_InstaDoc                       { quality = 1; price = 250; };
 	class Exile_Melee_Axe							{ quality = 1; price = 100; };
+	class Mask_M50									{ quality = 3; price = 700; };
+	class Mask_M40 									{ quality = 3; price = 500; };
+	class Mask_M40_OD 								{ quality = 3; price = 500; };
+	class tf_anprc148jem							{ quality = 3; price = 500; };
+	class tf_anprc155 								{ quality = 3; price = 500; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Navigation
@@ -1305,8 +1310,7 @@ class CfgExileArsenal
 	class TRYK_TAC_SET_NV_OD 						{ quality = 2; price = 300; };
 	class TRYK_TAC_SET_NV_TAN 						{ quality = 2; price = 300; };
 	class TRYK_TAC_SET_NV_WH 						{ quality = 2; price = 300; };
-    class tf_rf7800str_1 							{ quality = 3; price = 300; };
-    class tf_anprc148jem 							{ quality = 2; price = 200; };
+
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Rebreather
@@ -2809,14 +2813,17 @@ class CfgTraderCategories
 			"NVGoggles_INDEP",
 			"NVGoggles_OPFOR",
 			"G_I_Diving",
+			"Mask_M50",
+			"Mask_M40",
+			"Mask_M40_OD",
 			"ItemGPS",
 			"ItemMap",
 			"ItemCompass",
 			"ItemRadio",
 			"ItemWatch",
 			"Exile_Melee_Axe",
-			//"tf_rf7800str_1",
-			//"tf_anprc148jem",
+			"tf_anprc148jem",
+			"tf_anprc155",
 			"TRYK_balaclava_BLACK_NV",
  			"TRYK_balaclava_NV",
  			"TRYK_balaclava_BLACK_EAR_NV",

@@ -7,9 +7,8 @@
 
 // debuggin stuff
 setTerrainGrid 25;
-setObjectViewDistance 1500;
-setViewDistance 2500;
-
+setObjectViewDistance 1000;
+setViewDistance 2000;
 
 
 if (!hasInterface || isServer) exitWith {};
@@ -18,7 +17,7 @@ if (!hasInterface || isServer) exitWith {};
 ///////////////////////////////////////////////////////////////////////////
 // Hardware Trader Airport
 ///////////////////////////////////////////////////////////////////////////
-	
+
 _workBench = "Land_Workbench_01_F" createVehicleLocal [0,0,0];
 _workBench setDir 31;
 _workBench setPosATL [9434.81,4786.51,0.00145766];
@@ -39,22 +38,22 @@ call ExileClient_object_trader_create;
 ///////////////////////////////////////////////////////////////////////////
 
 _cashDesk = "Land_CashDesk_F" createVehicleLocal [0,0,0];
-_cashDesk setPosATL [9419.76,4804.33,-1.23978e-005]; 
+_cashDesk setPosATL [9419.76,4804.33,-1.23978e-005];
 _cashDesk setVectorDirAndUp [[-0.792077,0.609903,-0.025152], [-0.0218133,0.0128973,0.999679]];
 
 _microwave = "Land_Microwave_01_F" createVehicleLocal [0,0,0];
-_cashDesk disableCollisionWith _microwave;         
-_microwave disableCollisionWith _cashDesk; 
+_cashDesk disableCollisionWith _microwave;
+_microwave disableCollisionWith _cashDesk;
 _microwave attachTo [_cashDesk, [-0.6, 0.2, 1.1]];
 
 _ketchup = "Land_Ketchup_01_F" createVehicleLocal [0,0,0];
-_cashDesk disableCollisionWith _ketchup;         
-_ketchup disableCollisionWith _cashDesk; 
+_cashDesk disableCollisionWith _ketchup;
+_ketchup disableCollisionWith _cashDesk;
 _ketchup attachTo [_cashDesk, [-0.6, 0, 1.1]];
 
 _mustard = "Land_Mustard_01_F" createVehicleLocal [0,0,0];
-_cashDesk disableCollisionWith _mustard;         
-_mustard disableCollisionWith _cashDesk; 
+_cashDesk disableCollisionWith _mustard;
+_mustard disableCollisionWith _cashDesk;
 _mustard attachTo [_cashDesk, [-0.5, -0.05, 1.1]];
 
 [
@@ -74,7 +73,7 @@ call ExileClient_object_trader_create;
 ///////////////////////////////////////////////////////////////////////////
 
 _chair = "Land_CampingChair_V2_F" createVehicleLocal [0,0,0];
-_chair setPosATL [9453.79,4780.19,6.000144958]; 
+_chair setPosATL [9453.79,4780.19,6.000144958];
 _chair setVectorDirAndUp [[-0.998843,0.0455372,0.0154622], [0.0153858,-0.00202871,0.999879]];
 
 [
@@ -173,7 +172,7 @@ call ExileClient_object_trader_create;
 // Vehicle Trader
 ///////////////////////////////////////////////////////////////////////////
 
-_trader = 
+_trader =
 [
     "Exile_Trader_Vehicle",
     "WhiteHead_11",
@@ -269,7 +268,7 @@ call ExileClient_object_trader_create;
 ///////////////////////////////////////////////////////////////////////////
 // Hardware Trader BLACK MARKET
 ///////////////////////////////////////////////////////////////////////////
-	
+
 _workBench = "Land_Workbench_01_F" createVehicleLocal [0,0,0];
 _workBench setDir 94;
 _workBench setPosATL [1004.88,2836.89,0.00140381];
@@ -290,22 +289,22 @@ call ExileClient_object_trader_create;
 ///////////////////////////////////////////////////////////////////////////
 
 _cashDesk = "Land_CashDesk_F" createVehicleLocal [0,0,0];
-_cashDesk setPosATL [1051.37,2828.46,-9.15527e-005]; 
+_cashDesk setPosATL [1051.37,2828.46,-9.15527e-005];
 _cashDesk setVectorDirAndUp [[0.997124,-0.00799154,-0.0753674], [0.0747382,-0.0614033,0.995311]];
 
 _microwave = "Land_Microwave_01_F" createVehicleLocal [0,0,0];
-_cashDesk disableCollisionWith _microwave;         
-_microwave disableCollisionWith _cashDesk; 
+_cashDesk disableCollisionWith _microwave;
+_microwave disableCollisionWith _cashDesk;
 _microwave attachTo [_cashDesk, [-0.6, 0.2, 1.1]];
 
 _ketchup = "Land_Ketchup_01_F" createVehicleLocal [0,0,0];
-_cashDesk disableCollisionWith _ketchup;         
-_ketchup disableCollisionWith _cashDesk; 
+_cashDesk disableCollisionWith _ketchup;
+_ketchup disableCollisionWith _cashDesk;
 _ketchup attachTo [_cashDesk, [-0.6, 0, 1.1]];
 
 _mustard = "Land_Mustard_01_F" createVehicleLocal [0,0,0];
-_cashDesk disableCollisionWith _mustard;         
-_mustard disableCollisionWith _cashDesk; 
+_cashDesk disableCollisionWith _mustard;
+_mustard disableCollisionWith _cashDesk;
 _mustard attachTo [_cashDesk, [-0.5, -0.05, 1.1]];
 
 [
@@ -325,7 +324,7 @@ call ExileClient_object_trader_create;
 ///////////////////////////////////////////////////////////////////////////
 
 _chair = "Land_CampingChair_V2_F" createVehicleLocal [0,0,0];
-_chair setPosATL [1002.66,2863.53,0.00144958]; 
+_chair setPosATL [1002.66,2863.53,0.00144958];
 _chair setDir 127;
 
 
@@ -383,7 +382,7 @@ call ExileClient_object_trader_create;
 // Vehicle Trader ES PETRO
 ///////////////////////////////////////////////////////////////////////////
 
-_trader = 
+_trader =
 [
     "Exile_Trader_Vehicle",
     "WhiteHead_11",
@@ -404,7 +403,7 @@ call ExileClient_object_trader_create;
 ///////////////////////////////////////////////////////////////////////////
 // Hardware Trader ES PETRO
 ///////////////////////////////////////////////////////////////////////////
-	
+
 _workBench = "Land_Workbench_01_F" createVehicleLocal [0,0,0];
 _workBench setDir 30;
 _workBench setPosATL [3911.51,9291.28,0.00138855];
@@ -425,22 +424,22 @@ call ExileClient_object_trader_create;
 ///////////////////////////////////////////////////////////////////////////
 
 _cashDesk = "Land_CashDesk_F" createVehicleLocal [0,0,0];
-_cashDesk setPosATL [3956.51,9309.73,-3.05176e-005]; 
+_cashDesk setPosATL [3956.51,9309.73,-3.05176e-005];
 _cashdesk setDir 39.9628;
 
 _microwave = "Land_Microwave_01_F" createVehicleLocal [0,0,0];
-_cashDesk disableCollisionWith _microwave;         
-_microwave disableCollisionWith _cashDesk; 
+_cashDesk disableCollisionWith _microwave;
+_microwave disableCollisionWith _cashDesk;
 _microwave attachTo [_cashDesk, [-0.6, 0.2, 1.1]];
 
 _ketchup = "Land_Ketchup_01_F" createVehicleLocal [0,0,0];
-_cashDesk disableCollisionWith _ketchup;         
-_ketchup disableCollisionWith _cashDesk; 
+_cashDesk disableCollisionWith _ketchup;
+_ketchup disableCollisionWith _cashDesk;
 _ketchup attachTo [_cashDesk, [-0.6, 0, 1.1]];
 
 _mustard = "Land_Mustard_01_F" createVehicleLocal [0,0,0];
-_cashDesk disableCollisionWith _mustard;         
-_mustard disableCollisionWith _cashDesk; 
+_cashDesk disableCollisionWith _mustard;
+_mustard disableCollisionWith _cashDesk;
 _mustard attachTo [_cashDesk, [-0.5, -0.05, 1.1]];
 
 [
@@ -531,7 +530,7 @@ call ExileClient_object_trader_create;
 // Vehicle Trader ES PETRO
 ///////////////////////////////////////////////////////////////////////////
 
-_trader = 
+_trader =
 [
     "Exile_Trader_Vehicle",
     "WhiteHead_11",

@@ -16,15 +16,12 @@ _spawnPoint = _this select 0;
 //_winningSide = _this select 0;
 
 // Prepare variables.
-private ["_reward", "_i"];
+private ["_reward"];
 
-_i = 0;
-
-if (isServer && _i < 10) then {
+if (isServer) then {
 	// Spawn vehicle and choose hint color based on winning side.
 			_reward = _westvehicle select floor(random count _westvehicle) createVehicle getMarkerPos _spawnPoint;
 			//_color = _westColor;
-			_i = _i + 1;
 		
 	};
 

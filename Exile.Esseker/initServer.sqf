@@ -1,4 +1,4 @@
-_objects = 
+_objects =
 
 [
 
@@ -14,8 +14,8 @@ _objects =
     ["Exile_Sign_Vehicles",[9375.54,4703.62,-0.498952],227.589,0,0,false],
     ["Land_Wreck_Van_F",[9378.11,4700.27,0],186.923,0,0,false],
 	["Exile_Sign_VehicleCustoms",[9428.43,4695.7,-0.435771],94.2523,0,0,false],
-	
-	
+
+
 	["Exile_Sign_WasteDump",[4032.42,9240.44,-0.303558],63.5977,0,0,false],
     ["Exile_Sign_Office",[4014.7,9216.95,-0.190796],142.859,0,0,false],
     ["Exile_Sign_SpecialOperations",[4011.22,9250.12,-0.173935],112.877,0,0,false],
@@ -24,9 +24,9 @@ _objects =
     ["Exile_Sign_Armory",[3944.78,9311.74,-0.259354],40.8843,0,0,false],
     ["Exile_Sign_Hardware",[3906.24,9289.83,-0.391861],311.393,0,0,false],
     ["Exile_Sign_Food",[3957.83,9307.51,-0.879578],40.8843,0,0,false],
-    ["Exile_Sign_Armory",[3960.83,9231.81,0],216.905,0,0,false],
-		
-		
+    ["Exile_Sign_Equipment",[3960.83,9231.81,0],216.905,0,0,false],
+
+
 	["ZavoraAnim",[7717.19,10154.3,0],5.35718,[[0.0933642,0.995632,0],[0,0,1]],false],
 	["Land_Fuel_tank_stairs",[7677.57,10136,-8.01086e-005],270,[[-1,4.88762e-007,0],[0,0,1]],false],
 	["Land_Ind_FuelStation_Feed_EP1",[7673.55,10136.6,0.000106812],90,[[1,-4.37114e-008,0],[0,-0,1]],false],
@@ -57,8 +57,8 @@ _objects =
     ["Exile_Sign_Hardware",[1005.54,2839.52,-0.198318],268.238,0,0,false],
     ["Exile_Sign_Equipment",[1036.3,2808.28,-0.407288],162.629,0,0,false],
     ["Exile_Sign_SpecialOperations",[991.555,2795.68,-0.570251],188.976,0,0,false],
-    ["Exile_Sign_Vehicles",[961.393,2842.6,0],277.104,0,0,false]	
-		
+    ["Exile_Sign_Vehicles",[961.393,2842.6,0],277.104,0,0,false]
+
 ];
 {
     private ["_object"];

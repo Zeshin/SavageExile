@@ -23,7 +23,7 @@ bastionColor="colorOrange";	// Colour for bastion marker
 EOS_DAMAGE_MULTIPLIER=1;	// 1 is default
 EOS_KILLCOUNTER=true;		// Counts killed units
 
-null = [["EOSinf_1","EOSinf_2","EOSinf_3","EOSinf_4","EOSinf_5","EOSinf_6"],[2,1],[2,2,100],[0,0],[0],[0],[0,0],[2,1,200,CIVILIAN,TRUE]] call EOS_Spawn;
+//null = [["EOSinf_1","EOSinf_2","EOSinf_3","EOSinf_4","EOSinf_5","EOSinf_6"],[2,1],[2,2,100],[0,0],[0],[0],[0,0],[2,1,200,CIVILIAN,TRUE]] call EOS_Spawn;
 null = [["EOSrapt_1","EOSrapt_2","EOSrapt_3","EOSrapt_4","EOSrapt_5","EOSrapt_6","EOSrapt_7","EOSrapt_8","EOSrapt_9","EOSrapt_10"],[0,0],[4,0,100],[0,0],[0],[0],[0,0],[5,1,200,CIVILIAN,TRUE]] call EOS_Spawn;
 null = [["EOSraptPack_1","EOSraptPack_2","EOSraptPack_3","EOSraptPack_4","EOSraptPack_5","EOSraptPack_6"],[0,0],[5,2,100],[0,0],[0],[0],[0,0],[5,1,200,CIVILIAN,TRUE]] call EOS_Spawn;
 //null = [["EOSmot_1","EOSmot_2"],[0,0],[0,0],[3,1,90],[2,60],[0],[1,0,90],[0,0,350,EAST,FALSE]] call EOS_Spawn;

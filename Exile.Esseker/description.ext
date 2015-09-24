@@ -1,3 +1,5 @@
+#include "infiSTAR_AdminMenu.hpp"
+
 // https://community.bistudio.com/wiki/Description.ext#forceRotorLibSimulation
 forceRotorLibSimulation = 2;
 
@@ -19,8 +21,6 @@ class Header
 	maxPlayers = 60;
 };
 
-#include "infiSTAR_AdminMenu.hpp"
-
 // DO NOT CHANGE THIS! +
 showHUD = 0;
 
@@ -28,7 +28,7 @@ respawn = "BASE";
 respawnDelay = 120;
 respawnDialog = 0;
 respawnOnStart = 0;
-respawnButton = 0;
+respawnButton = 1;
 respawnTemplates[] = {"Exile"};
 // DO NOT CHANGE THIS! -
 

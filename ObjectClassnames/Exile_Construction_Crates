@@ -1,0 +1,13 @@
+Exile_Construction_WoodFloor_Static = 40
+Exile_Construction_WoodWall_Static = 60
+Exile_Construction_WoodWindows_Static = 10
+Exile_Construction_WorkBench_Static - 2
+Exile_Construction_WoodStairs_Static = 5
+Exile_Construction_WoodGate_Static = 5
+Exile_Construction_WoodDoorWay_Static = 5
+Exile_Construction_WoodDoor_Static = 5
+Exile_Construction_PortableGenerator_Static = 2
+Exile_Construction_FloodLight_Static = 4
+Exile_Construction_StorageCrate_Static = 6
+Exile_Construction_CamoTent_Static = 2
+Exile_Construction_WoodWallHalf_Static = 20
