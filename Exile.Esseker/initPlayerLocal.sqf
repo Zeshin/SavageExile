@@ -13,6 +13,9 @@ setViewDistance 2000;
 
 if (!hasInterface || isServer) exitWith {};
 
+if(!hasInterface && !isServer) then {
+    execVM "building.sqf";
+};
 
 ///////////////////////////////////////////////////////////////////////////
 // Hardware Trader Airport

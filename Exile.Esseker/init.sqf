@@ -27,7 +27,7 @@ if (isServer) then {
 	};
 [] execVM "objectives.sqf";
 [] execVM "passToHC.sqf";
-[] execVM "addons\Scripts\zombies.sqf";
-[] execVM "addons\Scripts\zombies2.sqf";
+//[] execVM "addons\Scripts\zombies.sqf";
+//[] execVM "addons\Scripts\zombies2.sqf";
 };
 

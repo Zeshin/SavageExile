@@ -74,13 +74,27 @@ wreckLimit = 2;
 wreckRemovalMinTime = 60;
 wreckRemovalMaxTime = 360;
 
-class CfgRemoteExecCommands {};
 
 #include "config.cpp"
 
 class RscTitles
 {
 	#include "addons\statusBar\statusBar.hpp"
+};
+
+class CfgRemoteExec
+{
+    class Functions
+    {
+        mode = 1;
+        jip = 0;
+        class ExileServer_system_network_dispatchIncomingMessage     { allowedTargets=2; };
+    };
+    class Commands
+    {
+		mode=0;
+		jip=0;
+    };
 };
 
 #include "R3F_LOG\desc_include.h"

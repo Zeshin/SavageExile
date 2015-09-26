@@ -31,11 +31,12 @@ class Mission
 		"ryanzombies",
 		"rickb_a3items",
 		"rickb_items",
-		"3DEN",
 		"a3_modules_f_curator_curator",
 		"A3_Characters_F",
 		"A3_Characters_F_INDEP",
-		"A3_Structures_F_Mil_Helipads"
+		"A3_Structures_F_Mil_Helipads",
+		"Werthles_WHK",
+		"3DEN"
 	};
 	addOnsAuto[]=
 	{
@@ -48,6 +49,7 @@ class Mission
 		"3DEN",
 		"a3_modules_f_curator_curator",
 		"A3_Characters_F",
+		"Werthles_WHK",
 		"A3_Structures_F_Mil_Helipads",
 		"esseker"
 	};
@@ -75,7 +77,7 @@ class Mission
 	};
 	class Groups
 	{
-		items=14;
+		items=33;
 		class Item0
 		{
 			side="GUER";
@@ -1217,6 +1219,8 @@ class Mission
 					skill=0.60000002;
 					text="HC2";
 					description="HC2";
+					syncId=60;
+					synchronizations[]={63};
 				};
 			};
 		};
@@ -1237,6 +1241,8 @@ class Mission
 					skill=0.60000002;
 					text="HC";
 					description="HC1";
+					syncId=61;
+					synchronizations[]={63};
 				};
 			};
 		};
@@ -1257,6 +1263,539 @@ class Mission
 					skill=0.60000002;
 					text="HC3";
 					description="HC1";
+					syncId=62;
+					synchronizations[]={63};
+				};
+			};
+		};
+		class Item14
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={12577.546,30.887186,5311.4766};
+					class args
+					{
+						items=9;
+						class Item0
+						{
+							value="1";
+							parentCls="Werthles_moduleWHM";
+							typeName="Units";
+						};
+						class Item1
+						{
+							value="1";
+							parentCls="Werthles_moduleWHM";
+							typeName="Repeating";
+						};
+						class Item2
+						{
+							value="30";
+							parentCls="Werthles_moduleWHM";
+							typeName="Wait";
+						};
+						class Item3
+						{
+							value="0";
+							parentCls="Werthles_moduleWHM";
+							typeName="Debug";
+						};
+						class Item4
+						{
+							value="1";
+							parentCls="Werthles_moduleWHM";
+							typeName="Advanced";
+						};
+						class Item5
+						{
+							value="30";
+							parentCls="Werthles_moduleWHM";
+							typeName="Delay";
+						};
+						class Item6
+						{
+							value="3";
+							parentCls="Werthles_moduleWHM";
+							typeName="Pause";
+						};
+						class Item7
+						{
+							value="1";
+							parentCls="Werthles_moduleWHM";
+							typeName="Report";
+						};
+						class Item8
+						{
+							value="";
+							parentCls="Werthles_moduleWHM";
+							typeName="Ignores";
+						};
+					};
+					id=73;
+					side="LOGIC";
+					vehicle="Werthles_moduleWHM";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+					syncId=63;
+					synchronizations[]={61,60,62};
+				};
+			};
+		};
+		class Item15
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={12523.945,123.85323,3410.0647};
+					class args
+					{
+						items=4;
+						class Item0
+						{
+							value="0.3";
+							parentCls="RyanZM_ModuleZombieDeletion";
+							typeName="Deletion";
+						};
+						class Item1
+						{
+							value="1000";
+							parentCls="RyanZM_ModuleZombieDeletion";
+							typeName="DeletionRadius";
+						};
+						class Item2
+						{
+							value="0.3";
+							parentCls="RyanZM_ModuleZombieDeletion";
+							typeName="DeletionDemons";
+						};
+						class Item3
+						{
+							value="1000";
+							parentCls="RyanZM_ModuleZombieDeletion";
+							typeName="DeletionRadiusDemons";
+						};
+					};
+					id=74;
+					side="LOGIC";
+					vehicle="RyanZM_ModuleZombieDeletion";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item16
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={12585.496,122.44852,2748.3889};
+					class args
+					{
+						items=9;
+						class Item0
+						{
+							value="300";
+							parentCls="RyanZM_ModuleSpawner";
+							typeName="Amount";
+						};
+						class Item1
+						{
+							value="1000000000000000000";
+							parentCls="RyanZM_ModuleSpawner";
+							typeName="TotalAmount";
+						};
+						class Item2
+						{
+							value="5";
+							parentCls="RyanZM_ModuleSpawner";
+							typeName="Start";
+						};
+						class Item3
+						{
+							value="60";
+							parentCls="RyanZM_ModuleSpawner";
+							typeName="Frequency";
+						};
+						class Item4
+						{
+							value="2";
+							parentCls="RyanZM_ModuleSpawner";
+							typeName="Delay";
+						};
+						class Item5
+						{
+							value="100";
+							parentCls="RyanZM_ModuleSpawner";
+							typeName="Density";
+						};
+						class Item6
+						{
+							value="0.3";
+							parentCls="RyanZM_ModuleSpawner";
+							typeName="Activation";
+						};
+						class Item7
+						{
+							value="1000";
+							parentCls="RyanZM_ModuleSpawner";
+							typeName="ActivationRadius";
+						};
+						class Item8
+						{
+							value="20";
+							parentCls="RyanZM_ModuleSpawner";
+							typeName="HordeSize";
+						};
+					};
+					id=75;
+					side="LOGIC";
+					vehicle="RyanZM_ModuleSpawner";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item17
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={12564.98,89.982658,2589.3816};
+					class args
+					{
+						items=9;
+						class Item0
+						{
+							value="50";
+							parentCls="RyanZM_ModuleSpawnerDemon";
+							typeName="Amount";
+						};
+						class Item1
+						{
+							value="100000000";
+							parentCls="RyanZM_ModuleSpawnerDemon";
+							typeName="TotalAmount";
+						};
+						class Item2
+						{
+							value="5";
+							parentCls="RyanZM_ModuleSpawnerDemon";
+							typeName="Start";
+						};
+						class Item3
+						{
+							value="60";
+							parentCls="RyanZM_ModuleSpawnerDemon";
+							typeName="Frequency";
+						};
+						class Item4
+						{
+							value="2";
+							parentCls="RyanZM_ModuleSpawnerDemon";
+							typeName="Delay";
+						};
+						class Item5
+						{
+							value="100";
+							parentCls="RyanZM_ModuleSpawnerDemon";
+							typeName="Density";
+						};
+						class Item6
+						{
+							value="0.3";
+							parentCls="RyanZM_ModuleSpawnerDemon";
+							typeName="ActivationDemon";
+						};
+						class Item7
+						{
+							value="10000";
+							parentCls="RyanZM_ModuleSpawnerDemon";
+							typeName="ActivationRadiusDemon";
+						};
+						class Item8
+						{
+							value="15";
+							parentCls="RyanZM_ModuleSpawnerDemon";
+							typeName="HordeSize";
+						};
+					};
+					id=76;
+					side="LOGIC";
+					vehicle="RyanZM_ModuleSpawnerDemon";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item18
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={8605.7324,13.992683,5710.0845};
+					id=77;
+					side="LOGIC";
+					vehicle="Ryanzombieslogicspawnmixedopfor";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item19
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={8173.6875,26.158392,5631.9741};
+					id=78;
+					side="LOGIC";
+					vehicle="Ryanzombieslogicspawnmixedopfor";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item20
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={8215.1836,27.669813,5866.3042};
+					id=79;
+					side="LOGIC";
+					vehicle="Ryanzombieslogicspawnmixedopfor";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item21
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={8412.8984,20.794796,5553.8647};
+					id=80;
+					side="LOGIC";
+					vehicle="Ryanzombieslogicspawnmixedopfor";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item22
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={7993.0586,30.935223,5827.249};
+					id=81;
+					side="LOGIC";
+					vehicle="Ryanzombieslogicspawnmixedopfor";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item23
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={8534.9453,22.641155,5917.563};
+					id=82;
+					side="LOGIC";
+					vehicle="Ryanzombieslogicspawnmixedopfor";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item24
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={9018.25,35.319122,5675.9116};
+					id=83;
+					side="LOGIC";
+					vehicle="Ryanzombieslogicspawnmixedopfor";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item25
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={8871.7939,22.668438,5439.1416};
+					id=84;
+					side="LOGIC";
+					vehicle="Ryanzombieslogicspawnmixedopfor";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item26
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={8622.8184,15.604937,5368.3545};
+					id=85;
+					side="LOGIC";
+					vehicle="Ryanzombieslogicspawnmixedopfor";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item27
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={8947.4629,39.191635,5917.563};
+					id=86;
+					side="LOGIC";
+					vehicle="Ryanzombieslogicspawnmixedopfor";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item28
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={9421.0029,22.853184,5644.1792};
+					id=87;
+					side="LOGIC";
+					vehicle="Ryanzombieslogicspawnmixedopfor";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item29
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={9201.3193,22.06238,5451.3462};
+					id=88;
+					side="LOGIC";
+					vehicle="Ryanzombieslogicspawnmixedopfor";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item30
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={9418.5615,37.651352,5898.0366};
+					id=89;
+					side="LOGIC";
+					vehicle="Ryanzombieslogicspawnmixedopfor";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item31
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={9677.3008,23.612139,5724.7305};
+					id=90;
+					side="LOGIC";
+					vehicle="Ryanzombieslogicspawnmixedopfor";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item32
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={9506.4346,19.00124,5544.1021};
+					id=91;
+					side="LOGIC";
+					vehicle="Ryanzombieslogicspawnmixedopfor";
+					leader=1;
+					skill=0.60000002;
 				};
 			};
 		};
@@ -1268,7 +1807,7 @@ class Mission
 		{
 			position[]={8824.4619,0.017008401,4981.9536};
 			azimut=163.98312;
-			id=73;
+			id=92;
 			side="EMPTY";
 			vehicle="Exile_Boat_RubberDuck_Digital";
 			skill=0.60000002;
@@ -1277,7 +1816,7 @@ class Mission
 		{
 			position[]={10651.068,-0.013568859,5269.3423};
 			azimut=248.20403;
-			id=74;
+			id=93;
 			side="EMPTY";
 			vehicle="Exile_Boat_RubberDuck_Digital";
 			skill=0.60000002;
@@ -1286,7 +1825,7 @@ class Mission
 		{
 			position[]={5768.3516,-0.025148392,5473.9546};
 			azimut=163.983;
-			id=75;
+			id=94;
 			side="EMPTY";
 			vehicle="Exile_Boat_RubberDuck_Digital";
 			skill=0.60000002;
@@ -1295,7 +1834,7 @@ class Mission
 		{
 			position[]={12145.411,-0.019536749,4939.9263};
 			azimut=163.98312;
-			id=76;
+			id=95;
 			side="EMPTY";
 			vehicle="Exile_Boat_RubberDuck_Digital";
 			skill=0.60000002;
@@ -1304,7 +1843,7 @@ class Mission
 		{
 			position[]={11963.726,13.882414,7976.4946};
 			azimut=-42.826237;
-			id=77;
+			id=96;
 			side="EMPTY";
 			vehicle="Exile_Bike_MountainBike";
 			skill=0.60000002;
@@ -1313,7 +1852,7 @@ class Mission
 		{
 			position[]={7155.4214,204.78706,9340.2012};
 			azimut=-226.5499;
-			id=78;
+			id=97;
 			side="EMPTY";
 			vehicle="Exile_Bike_MountainBike";
 			skill=0.60000002;
@@ -1322,7 +1861,7 @@ class Mission
 		{
 			position[]={1922.5618,165.83466,7818.2114};
 			azimut=-109.35478;
-			id=79;
+			id=98;
 			side="EMPTY";
 			vehicle="Exile_Bike_MountainBike";
 			skill=0.60000002;
@@ -1331,7 +1870,7 @@ class Mission
 		{
 			position[]={9493.5234,24.334078,5679.8564};
 			azimut=-146.341;
-			id=80;
+			id=99;
 			side="EMPTY";
 			vehicle="Land_HelipadEmpty_F";
 			leader=1;
@@ -1342,7 +1881,7 @@ class Mission
 		{
 			position[]={10546.312,9.9513988,5693.7026};
 			azimut=-146.341;
-			id=81;
+			id=100;
 			side="EMPTY";
 			vehicle="Land_HelipadEmpty_F";
 			leader=1;
@@ -1353,7 +1892,7 @@ class Mission
 		{
 			position[]={8551.9932,14.326825,5736.4297};
 			azimut=-146.341;
-			id=82;
+			id=101;
 			side="EMPTY";
 			vehicle="Land_HelipadEmpty_F";
 			leader=1;
@@ -1363,7 +1902,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=70;
+		items=24;
 		class Item0
 		{
 			position[]={7149.6777,205.41414,9346.6631};
@@ -1588,282 +2127,6 @@ class Mission
 			alpha=0;
 			a=80;
 			b=80;
-		};
-		class Item24
-		{
-			position[]={8267.8486,30.787064,5944.1416};
-			name="z16";
-			type="Empty";
-		};
-		class Item25
-		{
-			position[]={2723.0281,141.15663,4592.8184};
-			name="z34";
-			type="Empty";
-		};
-		class Item26
-		{
-			position[]={5098.8613,163.83754,4687.9414};
-			name="z35";
-			type="Empty";
-		};
-		class Item27
-		{
-			position[]={4898.9966,113.01381,5121.6431};
-			name="z36";
-			type="Empty";
-		};
-		class Item28
-		{
-			position[]={6645.2324,258.69263,3931.3206};
-			name="z37";
-			type="Empty";
-		};
-		class Item29
-		{
-			position[]={3133.3645,122.65097,6050.7393};
-			name="z38";
-			type="Empty";
-		};
-		class Item30
-		{
-			position[]={2712.0356,121.50964,6124.6533};
-			name="z39";
-			type="Empty";
-		};
-		class Item31
-		{
-			position[]={3494.4233,157.91246,6899.2075};
-			name="z40";
-			type="Empty";
-		};
-		class Item32
-		{
-			position[]={6286.6992,49.864338,6198.8662};
-			name="z41";
-			type="Empty";
-		};
-		class Item33
-		{
-			position[]={9025.5293,171.00275,7892.5225};
-			name="z42";
-			type="Empty";
-		};
-		class Item34
-		{
-			position[]={10148.811,66.611954,7922.0986};
-			name="z43";
-			type="Empty";
-		};
-		class Item35
-		{
-			position[]={4804.5151,128.80602,8073.5942};
-			name="z44";
-			type="Empty";
-		};
-		class Item36
-		{
-			position[]={1176.6919,150.07253,10273.57};
-			name="z45";
-			type="Empty";
-		};
-		class Item37
-		{
-			position[]={10073.527,9.3174801,9887.083};
-			name="z46";
-			type="Empty";
-		};
-		class Item38
-		{
-			position[]={7640.0557,53.080208,10167.78};
-			name="z47";
-			type="Empty";
-		};
-		class Item39
-		{
-			position[]={9117.0654,47.651272,5917.7656};
-			name="z1";
-			type="Empty";
-		};
-		class Item40
-		{
-			position[]={8043.9209,29.66321,5838.4756};
-			name="z2";
-			type="Empty";
-		};
-		class Item41
-		{
-			position[]={8203.29,24.68786,5659.9058};
-			name="z3";
-			type="Empty";
-		};
-		class Item42
-		{
-			position[]={8009.5596,22.413265,5544.3047};
-			name="z4";
-			type="Empty";
-		};
-		class Item43
-		{
-			position[]={8376.0996,20.919407,5446.7744};
-			name="z5";
-			type="Empty";
-		};
-		class Item44
-		{
-			position[]={8556.9414,24.199585,5954.0688};
-			name="z6";
-			type="Empty";
-		};
-		class Item45
-		{
-			position[]={8787.9863,32.98011,5941.4458};
-			name="z7";
-			type="Empty";
-		};
-		class Item46
-		{
-			position[]={8733.2412,20.282545,5700.2275};
-			name="z8";
-			type="Empty";
-		};
-		class Item47
-		{
-			position[]={8934.8525,31.433767,5694.4688};
-			name="z9";
-			type="Empty";
-		};
-		class Item48
-		{
-			position[]={9134.5439,33.018177,5682.9482};
-			name="z10";
-			type="Empty";
-		};
-		class Item49
-		{
-			position[]={9353.4355,27.576057,5673.3477};
-			name="z12";
-			type="Empty";
-		};
-		class Item50
-		{
-			position[]={8599.2832,15.376284,5443.5132};
-			name="z13";
-			type="Empty";
-		};
-		class Item51
-		{
-			position[]={8857.4746,22.16811,5470.2651};
-			name="z14";
-			type="Empty";
-		};
-		class Item52
-		{
-			position[]={9053.9004,25.40534,5500.541};
-			name="z15";
-			type="Empty";
-		};
-		class Item53
-		{
-			position[]={9489.8799,12.362303,5490.9419};
-			name="z17";
-			type="Empty";
-		};
-		class Item54
-		{
-			position[]={9642.9023,24.412199,5729.5444};
-			name="z18";
-			type="Empty";
-		};
-		class Item55
-		{
-			position[]={8459.3086,16.375351,5752.1313};
-			name="z19";
-			type="Empty";
-		};
-		class Item56
-		{
-			position[]={9983.2334,9.5353746,5577.3467};
-			name="z20";
-			type="Empty";
-		};
-		class Item57
-		{
-			position[]={9847.7305,19.266186,5809.2866};
-			name="z21";
-			type="Empty";
-		};
-		class Item58
-		{
-			position[]={10121.483,15.429463,5744.3975};
-			name="z22";
-			type="Empty";
-		};
-		class Item59
-		{
-			position[]={10236.689,2.1501741,5500.5449};
-			name="z23";
-			type="Empty";
-		};
-		class Item60
-		{
-			position[]={10384.538,13.54278,5700.2354};
-			name="z24";
-			type="Empty";
-		};
-		class Item61
-		{
-			position[]={10438.301,2.0150609,5462.1421};
-			name="z25";
-			type="Empty";
-		};
-		class Item62
-		{
-			position[]={10799.28,2.6879578,5416.0605};
-			name="z26";
-			type="Empty";
-		};
-		class Item63
-		{
-			position[]={10591.908,0.10291916,5341.1768};
-			name="z27";
-			type="Empty";
-		};
-		class Item64
-		{
-			position[]={11125.697,-0.95232165,5387.2598};
-			name="z28";
-			type="Empty";
-		};
-		class Item65
-		{
-			position[]={10798.491,5.975997,5684.4375};
-			name="z29";
-			type="Empty";
-		};
-		class Item66
-		{
-			position[]={9512.3145,40.401299,5930.3711};
-			name="z30";
-			type="Empty";
-		};
-		class Item67
-		{
-			position[]={10082.717,14.597445,5939.2671};
-			name="z31";
-			type="Empty";
-		};
-		class Item68
-		{
-			position[]={9245.2236,21.254177,5488.2993};
-			name="z32";
-			type="Empty";
-		};
-		class Item69
-		{
-			position[]={8423.6777,21.230394,5541.5005};
-			name="z33";
-			type="Empty";
 		};
 	};
 	class Sensors

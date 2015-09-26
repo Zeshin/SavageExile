@@ -1,0 +1,180 @@
+R3F_LOG_CFG_can_tow = R3F_LOG_CFG_can_tow +
+[
+	"BAF_Offroad_D",
+	"BAF_Offroad_W",
+	"LandRover_CZ_EP1";
+	"LandRover_TK_CIV_EP1",
+	"BAF_Offroad_D_HMG",
+	"BAF_Offroad_W_HMG",
+	"ACR_Offroad_HMG",
+	"LandRover_ACR",
+	"ACR_LandRover_AMB",
+	"EWK_m1151_m2_deployment",
+	"EWK_m1151_m2_deployment_Jtac",
+	"EWK_m1151_m2_deployment_AT4",
+	"EWK_m1151_m2_deployment_Bumper",
+	"EWK_HMMWV_Light",
+	"EWK_HMMWV_Medevac",
+	"EWK_M997A2_Ambulance",
+	"EWK_M997A2_Ambulance_NoBackLights",
+	"EWK_M997A2_Ambulance_Tan",
+	"EWK_M997A2_Ambulance_Tan_NoBackLights",
+	"EWK_M1114_Armored",
+	"EWK_M998A2_sov_M2",
+	"EWK_m1151_m240_deployment"
+];
+
+R3F_LOG_CFG_can_be_towed = R3F_LOG_CFG_can_be_towed +
+[
+	"BAF_Offroad_D",
+	"BAF_Offroad_W",
+	"LandRover_CZ_EP1";
+	"LandRover_TK_CIV_EP1",
+	"BAF_Offroad_D_HMG",
+	"BAF_Offroad_W_HMG",
+	"ACR_Offroad_HMG",
+	"LandRover_ACR",
+	"ACR_LandRover_AMB",
+	"EWK_m1151_m2_deployment",
+	"EWK_m1151_m2_deployment_Jtac",
+	"EWK_m1151_m2_deployment_AT4",
+	"EWK_m1151_m2_deployment_Bumper",
+	"EWK_HMMWV_Light",
+	"EWK_HMMWV_Medevac",
+	"EWK_M997A2_Ambulance",
+	"EWK_M997A2_Ambulance_NoBackLights",
+	"EWK_M997A2_Ambulance_Tan",
+	"EWK_M997A2_Ambulance_Tan_NoBackLights",
+	"EWK_M1114_Armored",
+	"EWK_M998A2_sov_M2",
+	"EWK_m1151_m240_deployment",
+	"GR_AW101_1",
+	"GR_AW101_2",
+	"GR_Bell412_1",
+	"GR_Bell412_2",
+	"GR_Bell412_3",
+	"GR_Mi_171_1",
+	"GR_Mi_171_2",
+	"GR_Mi8_1",
+	"GR_Mi8_2",
+	"GR_UH1N_1",
+	"GR_UH1N_2",
+	"GR_UH1N_3",
+	"GR_UH1D_1",
+	"GR_UH1H_1",
+	"GR_UH1H_2",
+	"GR_UH1H_3",
+	"GR_UH1H_4",
+	"GR_UH1H_5",
+	"GR_UH1H_6",
+	"GR_UH1H_7",
+	"GR_UH60_1"
+];
+
+R3F_LOG_CFG_can_lift = R3F_LOG_CFG_can_lift +
+[
+	"GR_AW101_1",
+	"GR_AW101_2",
+	"GR_Bell412_1",
+	"GR_Bell412_2",
+	"GR_Bell412_3",
+	"GR_Mi_171_1",
+	"GR_Mi_171_2",
+	"GR_Mi8_1",
+	"GR_Mi8_2",
+	"GR_UH1N_1",
+	"GR_UH1N_2",
+	"GR_UH1N_3",
+	"GR_UH1D_1",
+	"GR_UH1H_1",
+	"GR_UH1H_2",
+	"GR_UH1H_3",
+	"GR_UH1H_4",
+	"GR_UH1H_5",
+	"GR_UH1H_6",
+	"GR_UH1H_7",
+	"GR_UH60_1"
+];
+
+R3F_LOG_CFG_can_be_lifted = R3F_LOG_CFG_can_be_lifted +
+[
+	"BAF_Offroad_D",
+	"BAF_Offroad_W",
+	"LandRover_CZ_EP1";
+	"LandRover_TK_CIV_EP1",
+	"BAF_Offroad_D_HMG",
+	"BAF_Offroad_W_HMG",
+	"ACR_Offroad_HMG",
+	"LandRover_ACR",
+	"ACR_LandRover_AMB",
+	"EWK_m1151_m2_deployment",
+	"EWK_m1151_m2_deployment_Jtac",
+	"EWK_m1151_m2_deployment_AT4",
+	"EWK_m1151_m2_deployment_Bumper",
+	"EWK_HMMWV_Light",
+	"EWK_HMMWV_Medevac",
+	"EWK_M997A2_Ambulance",
+	"EWK_M997A2_Ambulance_NoBackLights",
+	"EWK_M997A2_Ambulance_Tan",
+	"EWK_M997A2_Ambulance_Tan_NoBackLights",
+	"EWK_M1114_Armored",
+	"EWK_M998A2_sov_M2",
+	"EWK_m1151_m240_deployment"
+];
+
+R3F_LOG_CFG_can_transport_cargo = R3F_LOG_CFG_can_transport_cargo +
+[
+	"BAF_Offroad_D",
+	"BAF_Offroad_W",
+	"LandRover_CZ_EP1";
+	"LandRover_TK_CIV_EP1",
+	"BAF_Offroad_D_HMG",
+	"BAF_Offroad_W_HMG",
+	"ACR_Offroad_HMG",
+	"LandRover_ACR",
+	"ACR_LandRover_AMB",
+	"EWK_m1151_m2_deployment",
+	"EWK_m1151_m2_deployment_Jtac",
+	"EWK_m1151_m2_deployment_AT4",
+	"EWK_m1151_m2_deployment_Bumper",
+	"EWK_HMMWV_Light",
+	"EWK_HMMWV_Medevac",
+	"EWK_M997A2_Ambulance",
+	"EWK_M997A2_Ambulance_NoBackLights",
+	"EWK_M997A2_Ambulance_Tan",
+	"EWK_M997A2_Ambulance_Tan_NoBackLights",
+	"EWK_M1114_Armored",
+	"EWK_M998A2_sov_M2",
+	"EWK_m1151_m240_deployment",
+	"GR_AW101_1",
+	"GR_AW101_2",
+	"GR_Bell412_1",
+	"GR_Bell412_2",
+	"GR_Bell412_3",
+	"GR_Mi_171_1",
+	"GR_Mi_171_2",
+	"GR_Mi8_1",
+	"GR_Mi8_2",
+	"GR_UH1N_1",
+	"GR_UH1N_2",
+	"GR_UH1N_3",
+	"GR_UH1D_1",
+	"GR_UH1H_1",
+	"GR_UH1H_2",
+	"GR_UH1H_3",
+	"GR_UH1H_4",
+	"GR_UH1H_5",
+	"GR_UH1H_6",
+	"GR_UH1H_7",
+	"GR_UH60_1"
+];
+
+R3F_LOG_CFG_can_be_transported_cargo = R3F_LOG_CFG_can_be_transported_cargo +
+[
+
+];
+
+R3F_LOG_CFG_can_be_moved_by_player = R3F_LOG_CFG_can_be_moved_by_player +
+[
+
+];
