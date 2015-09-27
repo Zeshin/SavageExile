@@ -1,4 +1,5 @@
 execvm "lighting.sqf";
+execvm "spawn_towns.sqf";
 
 _objects =
 
@@ -71,4 +72,3 @@ _objects =
     _object enableSimulation true; // :)
 }
 forEach _objects;
-
