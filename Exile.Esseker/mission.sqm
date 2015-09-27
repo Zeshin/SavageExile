@@ -1406,7 +1406,7 @@ class Mission
 						items=9;
 						class Item0
 						{
-							value="300";
+							value="100";
 							parentCls="RyanZM_ModuleSpawner";
 							typeName="Amount";
 						};
@@ -1482,7 +1482,7 @@ class Mission
 						items=9;
 						class Item0
 						{
-							value="50";
+							value="20";
 							parentCls="RyanZM_ModuleSpawnerDemon";
 							typeName="Amount";
 						};

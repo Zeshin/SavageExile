@@ -11,11 +11,11 @@ setObjectViewDistance 1000;
 setViewDistance 2000;
 
 
-if (!hasInterface || isServer) exitWith {};
+/*if (!hasInterface || isServer) exitWith {};
 
 if(!hasInterface && !isServer) then {
-    execVM "building.sqf";
-};
+    execVM "building/.sqf";
+}; */
 
 ///////////////////////////////////////////////////////////////////////////
 // Hardware Trader Airport

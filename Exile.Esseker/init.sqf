@@ -25,6 +25,7 @@ if (isServer) then {
 			uiSleep 1;
 		};
 	};
+[] execVM "building/.sqf";
 [] execVM "objectives.sqf";
 [] execVM "passToHC.sqf";
 //[] execVM "addons\Scripts\zombies.sqf";

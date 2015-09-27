@@ -1,3 +1,5 @@
+execvm "lighting.sqf";
+
 _objects =
 
 [
@@ -21,10 +23,10 @@ _objects =
     ["Exile_Sign_SpecialOperations",[4011.22,9250.12,-0.173935],112.877,0,0,false],
     ["Exile_Sign_Vehicles",[3965.79,9288.06,0],129.231,0,0,false],
     ["Exile_Sign_VehicleCustoms",[3971.59,9281.01,4.77504],39.9757,0,0,false],
-    ["Exile_Sign_Armory",[3944.78,9311.74,-0.259354],40.8843,0,0,false],
+    ["Exile_Sign_Equipment",[3944.78,9311.74,-0.259354],40.8843,0,0,false],
     ["Exile_Sign_Hardware",[3906.24,9289.83,-0.391861],311.393,0,0,false],
     ["Exile_Sign_Food",[3957.83,9307.51,-0.879578],40.8843,0,0,false],
-    ["Exile_Sign_Equipment",[3960.83,9231.81,0],216.905,0,0,false],
+    ["Exile_Sign_Armory",[3960.83,9231.81,0],216.905,0,0,false],
 
 
 	["ZavoraAnim",[7717.19,10154.3,0],5.35718,[[0.0933642,0.995632,0],[0,0,1]],false],

@@ -226,7 +226,7 @@ R3F_LOG_CFG_string_condition_allow_creation_factory_on_this_client = "false";
 //#include "addons_config\All_in_Arma.sqf"
 //#include "addons_config\R3F_addons.sqf"
 //#include "addons_config\YOUR_ADDITIONAL_ADDON.sqf"
-#include "addons_config\savage_customs.sqf";
+#include "addons_config\savage_customs.sqf"
 
 /****** TOW WITH VEHICLE / REMORQUER AVEC VEHICULE ******/
 
