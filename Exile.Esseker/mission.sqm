@@ -35,7 +35,6 @@ class Mission
 		"A3_Characters_F",
 		"A3_Characters_F_INDEP",
 		"A3_Structures_F_Mil_Helipads",
-		"Werthles_WHK",
 		"3DEN"
 	};
 	addOnsAuto[]=
@@ -49,7 +48,6 @@ class Mission
 		"3DEN",
 		"a3_modules_f_curator_curator",
 		"A3_Characters_F",
-		"Werthles_WHK",
 		"A3_Structures_F_Mil_Helipads",
 		"esseker"
 	};
@@ -1025,7 +1023,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={10111.681,0.2852363,5260.5566};
+					position[]={11042.636,-1.3001962e-005,5094.8784};
 					id=63;
 					side="LOGIC";
 					vehicle="Ryanzombieslogicdelete";
@@ -1042,7 +1040,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={10286.958,0.16528836,5260.5571};
+					position[]={11194.246,0.00077721284,5055.4316};
 					id=64;
 					side="LOGIC";
 					vehicle="Ryanzombieslogichard";
@@ -1059,7 +1057,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={10467.891,-0.00073951727,5237.9399};
+					position[]={11331.786,0.0013761901,5040.7031};
 					id=65;
 					side="LOGIC";
 					vehicle="Ryanzombieslogicthrow";
@@ -1076,7 +1074,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={10643.166,-34.089039,5181.3984};
+					position[]={11436.056,-0.0011643893,5051.2231};
 					id=66;
 					side="LOGIC";
 					vehicle="Ryanzombieslogicthrowtank";
@@ -1093,7 +1091,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={11005.028,-17.331224,5147.4746};
+					position[]={11584.903,0.0019472851,5060.6914};
 					id=67;
 					side="LOGIC";
 					vehicle="ryanzombiesjump";
@@ -1219,8 +1217,6 @@ class Mission
 					skill=0.60000002;
 					text="HC2";
 					description="HC2";
-					syncId=60;
-					synchronizations[]={63};
 				};
 			};
 		};
@@ -1241,8 +1237,6 @@ class Mission
 					skill=0.60000002;
 					text="HC";
 					description="HC1";
-					syncId=61;
-					synchronizations[]={63};
 				};
 			};
 		};
@@ -1263,90 +1257,10 @@ class Mission
 					skill=0.60000002;
 					text="HC3";
 					description="HC1";
-					syncId=62;
-					synchronizations[]={63};
 				};
 			};
 		};
 		class Item14
-		{
-			side="LOGIC";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={12577.546,30.887186,5311.4766};
-					class args
-					{
-						items=9;
-						class Item0
-						{
-							value="1";
-							parentCls="Werthles_moduleWHM";
-							typeName="Units";
-						};
-						class Item1
-						{
-							value="1";
-							parentCls="Werthles_moduleWHM";
-							typeName="Repeating";
-						};
-						class Item2
-						{
-							value="30";
-							parentCls="Werthles_moduleWHM";
-							typeName="Wait";
-						};
-						class Item3
-						{
-							value="0";
-							parentCls="Werthles_moduleWHM";
-							typeName="Debug";
-						};
-						class Item4
-						{
-							value="1";
-							parentCls="Werthles_moduleWHM";
-							typeName="Advanced";
-						};
-						class Item5
-						{
-							value="30";
-							parentCls="Werthles_moduleWHM";
-							typeName="Delay";
-						};
-						class Item6
-						{
-							value="3";
-							parentCls="Werthles_moduleWHM";
-							typeName="Pause";
-						};
-						class Item7
-						{
-							value="1";
-							parentCls="Werthles_moduleWHM";
-							typeName="Report";
-						};
-						class Item8
-						{
-							value="";
-							parentCls="Werthles_moduleWHM";
-							typeName="Ignores";
-						};
-					};
-					id=73;
-					side="LOGIC";
-					vehicle="Werthles_moduleWHM";
-					leader=1;
-					lock="UNLOCKED";
-					skill=0.60000002;
-					syncId=63;
-					synchronizations[]={61,60,62};
-				};
-			};
-		};
-		class Item15
 		{
 			side="LOGIC";
 			class Vehicles
@@ -1366,7 +1280,7 @@ class Mission
 						};
 						class Item1
 						{
-							value="1000";
+							value="700";
 							parentCls="RyanZM_ModuleZombieDeletion";
 							typeName="DeletionRadius";
 						};
@@ -1378,12 +1292,12 @@ class Mission
 						};
 						class Item3
 						{
-							value="1000";
+							value="700";
 							parentCls="RyanZM_ModuleZombieDeletion";
 							typeName="DeletionRadiusDemons";
 						};
 					};
-					id=74;
+					id=73;
 					side="LOGIC";
 					vehicle="RyanZM_ModuleZombieDeletion";
 					leader=1;
@@ -1392,7 +1306,7 @@ class Mission
 				};
 			};
 		};
-		class Item16
+		class Item15
 		{
 			side="LOGIC";
 			class Vehicles
@@ -1448,7 +1362,7 @@ class Mission
 						};
 						class Item7
 						{
-							value="1000";
+							value="650";
 							parentCls="RyanZM_ModuleSpawner";
 							typeName="ActivationRadius";
 						};
@@ -1459,7 +1373,7 @@ class Mission
 							typeName="HordeSize";
 						};
 					};
-					id=75;
+					id=74;
 					side="LOGIC";
 					vehicle="RyanZM_ModuleSpawner";
 					leader=1;
@@ -1468,7 +1382,7 @@ class Mission
 				};
 			};
 		};
-		class Item17
+		class Item16
 		{
 			side="LOGIC";
 			class Vehicles
@@ -1524,7 +1438,7 @@ class Mission
 						};
 						class Item7
 						{
-							value="10000";
+							value="350";
 							parentCls="RyanZM_ModuleSpawnerDemon";
 							typeName="ActivationRadiusDemon";
 						};
@@ -1535,11 +1449,28 @@ class Mission
 							typeName="HordeSize";
 						};
 					};
-					id=76;
+					id=75;
 					side="LOGIC";
 					vehicle="RyanZM_ModuleSpawnerDemon";
 					leader=1;
 					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item17
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={8605.7324,13.992683,5710.0845};
+					id=76;
+					side="LOGIC";
+					vehicle="Ryanzombieslogicspawnmixedopfor";
+					leader=1;
 					skill=0.60000002;
 				};
 			};
@@ -1552,7 +1483,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={8605.7324,13.992683,5710.0845};
+					position[]={8173.6875,26.158392,5631.9741};
 					id=77;
 					side="LOGIC";
 					vehicle="Ryanzombieslogicspawnmixedopfor";
@@ -1569,7 +1500,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={8173.6875,26.158392,5631.9741};
+					position[]={8215.1836,27.669813,5866.3042};
 					id=78;
 					side="LOGIC";
 					vehicle="Ryanzombieslogicspawnmixedopfor";
@@ -1586,7 +1517,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={8215.1836,27.669813,5866.3042};
+					position[]={8412.8984,20.794796,5553.8647};
 					id=79;
 					side="LOGIC";
 					vehicle="Ryanzombieslogicspawnmixedopfor";
@@ -1603,7 +1534,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={8412.8984,20.794796,5553.8647};
+					position[]={7993.0586,30.935223,5827.249};
 					id=80;
 					side="LOGIC";
 					vehicle="Ryanzombieslogicspawnmixedopfor";
@@ -1620,7 +1551,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={7993.0586,30.935223,5827.249};
+					position[]={8534.9453,22.641155,5917.563};
 					id=81;
 					side="LOGIC";
 					vehicle="Ryanzombieslogicspawnmixedopfor";
@@ -1637,7 +1568,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={8534.9453,22.641155,5917.563};
+					position[]={9018.25,35.319122,5675.9116};
 					id=82;
 					side="LOGIC";
 					vehicle="Ryanzombieslogicspawnmixedopfor";
@@ -1654,7 +1585,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={9018.25,35.319122,5675.9116};
+					position[]={8871.7939,22.668438,5439.1416};
 					id=83;
 					side="LOGIC";
 					vehicle="Ryanzombieslogicspawnmixedopfor";
@@ -1671,7 +1602,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={8871.7939,22.668438,5439.1416};
+					position[]={8622.8184,15.604937,5368.3545};
 					id=84;
 					side="LOGIC";
 					vehicle="Ryanzombieslogicspawnmixedopfor";
@@ -1688,7 +1619,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={8622.8184,15.604937,5368.3545};
+					position[]={8947.4629,39.191635,5917.563};
 					id=85;
 					side="LOGIC";
 					vehicle="Ryanzombieslogicspawnmixedopfor";
@@ -1705,7 +1636,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={8947.4629,39.191635,5917.563};
+					position[]={9421.0029,22.853184,5644.1792};
 					id=86;
 					side="LOGIC";
 					vehicle="Ryanzombieslogicspawnmixedopfor";
@@ -1722,7 +1653,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={9421.0029,22.853184,5644.1792};
+					position[]={9201.3193,22.06238,5451.3462};
 					id=87;
 					side="LOGIC";
 					vehicle="Ryanzombieslogicspawnmixedopfor";
@@ -1739,7 +1670,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={9201.3193,22.06238,5451.3462};
+					position[]={9418.5615,37.651352,5898.0366};
 					id=88;
 					side="LOGIC";
 					vehicle="Ryanzombieslogicspawnmixedopfor";
@@ -1756,7 +1687,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={9418.5615,37.651352,5898.0366};
+					position[]={9677.3008,23.612139,5724.7305};
 					id=89;
 					side="LOGIC";
 					vehicle="Ryanzombieslogicspawnmixedopfor";
@@ -1773,7 +1704,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={9677.3008,23.612139,5724.7305};
+					position[]={9506.4346,19.00124,5544.1021};
 					id=90;
 					side="LOGIC";
 					vehicle="Ryanzombieslogicspawnmixedopfor";
@@ -1790,10 +1721,10 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={9506.4346,19.00124,5544.1021};
+					position[]={10551.612,0.00026911867,5215.7256};
 					id=91;
 					side="LOGIC";
-					vehicle="Ryanzombieslogicspawnmixedopfor";
+					vehicle="ryanzombieswaypoint";
 					leader=1;
 					skill=0.60000002;
 				};
@@ -1902,7 +1833,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=24;
+		items=25;
 		class Item0
 		{
 			position[]={7149.6777,205.41414,9346.6631};
@@ -2127,6 +2058,13 @@ class Mission
 			alpha=0;
 			a=80;
 			b=80;
+		};
+		class Item24
+		{
+			position[]={911.04529,143.58234,2840.3108};
+			name="blackmarket";
+			text="Black Market Trader";
+			type="hd_warning";
 		};
 	};
 	class Sensors

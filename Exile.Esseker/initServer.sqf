@@ -1,6 +1,3 @@
-execvm "lighting.sqf";
-execvm "spawn_towns.sqf";
-
 _objects =
 
 [

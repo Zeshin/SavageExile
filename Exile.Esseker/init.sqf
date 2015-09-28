@@ -25,10 +25,11 @@ if (isServer) then {
 			uiSleep 1;
 		};
 	};
-[] execVM "building/.sqf";
+[] execVM "building.sqf";
 [] execVM "objectives.sqf";
 [] execVM "passToHC.sqf";
+[] execvm "lighting.sqf";
+[] execvm "spawn_towns.sqf";
 //[] execVM "addons\Scripts\zombies.sqf";
 //[] execVM "addons\Scripts\zombies2.sqf";
 };
-
